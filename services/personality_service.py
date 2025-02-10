@@ -28,6 +28,6 @@ def get_combined_prompt(npc_id: str, mode: str) -> str:
         raise ValueError(f"NPC '{npc_id}' not found.")
 
     npc_personality = npc_prompts.get(f"{mode}_personality", "")
-    profile = extract_google_doc_content("chat")
+    profile = extract_google_doc_content(mode)
     # Combine them.
     return f"{global_prompt}\n{mode_prompt}\n{npc_personality}\n{profile}"

@@ -8,6 +8,7 @@ __pycache__/
 # Ignore environment variables and credentials
 .env
 services/credentials.json
+data/config.py
 
 # Ignore macOS system files
 .DS_Store

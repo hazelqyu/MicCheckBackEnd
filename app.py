@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from api.chat_routes import router as chat_router
 from api.battle_routes import router as battle_router
 
+
 app = FastAPI(title="Rap Battle Game Backend API")
 
 # Include chat and battle endpoints.
