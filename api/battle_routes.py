@@ -25,6 +25,7 @@ async def fill_in_blank_interact(request: FillInBlankRequest):
 
 
 def parse_ai_response(raw_reply: str):
+    print(raw_reply)
     try:
         parsed_reply = json.loads(raw_reply)
     except json.JSONDecodeError as e:
