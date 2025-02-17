@@ -32,8 +32,12 @@ def parse_ai_response(raw_reply: str):
         raise ValueError("AI response is not valid JSON") from e
 
     try:
-        # Extract required fields from the JSON response
-        full_bar = parsed_reply.get("npc_full_bar", "").strip()
+        full_bar_1 = parsed_reply.get("npc_full_bar_1", "").strip()
+        full_bar_2 = parsed_reply.get("npc_full_bar_2", "").strip()
+        full_bar_3 = parsed_reply.get("npc_full_bar_3", "").strip()
+        full_bar_4 = parsed_reply.get("npc_full_bar_4", "").strip()
+
+        full_bar = f"{full_bar_1}\n{full_bar_2}\n{full_bar_3}\n{full_bar_4}"
         incomplete_bar = parsed_reply.get("npc_incomplete_bar", "").strip()
         word_options = parsed_reply.get("options", [])
 

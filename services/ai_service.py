@@ -62,7 +62,47 @@ def generate_fill_in_blank_response(request):
         model=OPENAI_MODEL,
         messages=messages,
         temperature=0.8,
-        response_format={"type": "json_object"}
+        response_format={
+            "type": "json_schema",
+            "json_schema": {
+                "name": "help_response_schema",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "npc_full_bar_1": {
+                            "description": "A string",
+                            "type": "string"
+                        },
+                        "npc_full_bar_2": {
+                            "description": "A string",
+                            "type": "string"
+                        },
+                        "npc_full_bar_3": {
+                            "description": "A string",
+                            "type": "string"
+                        },
+                        "npc_full_bar_4": {
+                            "description": "A string",
+                            "type": "string"
+                        },
+                        "npc_incomplete_bar": {
+                            "description": "A string",
+                            "type": "string"
+                        },
+                        "options": {
+                            "description": "A list of options related to the task",
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "required": ["npc_full_bar_1", "npc_full_bar_2", "npc_full_bar_3", "npc_full_bar_4",
+                                 "npc_incomplete_bar", "options"],
+                    "additionalProperties": False
+                }
+            }
+        }
     )
 
     # Extract the raw AI reply
