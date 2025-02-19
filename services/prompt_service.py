@@ -16,8 +16,15 @@ def load_helper_prompts() -> dict:
         return json.load(file)
 
 
+def load_scoring_prompts() -> dict:
+    file_path = os.path.join(os.path.dirname(__file__), "../data/score_prompts.json")
+    with open(file_path, "r") as file:
+        return json.load(file)
+
+
 NPC_PROMPTS = load_personality_prompts()
 HELPER_PROMPTS = load_helper_prompts()
+SCORING_PROMPTS = load_scoring_prompts()
 
 
 def get_combined_prompt(npc_id: str, mode: str) -> str:
@@ -44,3 +51,10 @@ def get_helper_prompt() -> str:
     helper_prompt = HELPER_PROMPTS.get(f"helper_rule", "")
     format_prompt = HELPER_PROMPTS.get(f"format_rule", "")
     return f"{helper_prompt}\n{format_prompt}"
+
+
+def get_scoring_prompt() -> str:
+    scoring_rules = extract_google_doc_content("score")
+    scoring_prompt = SCORING_PROMPTS.get(f"scoring_prompt", "")
+    comment_rule = SCORING_PROMPTS.get(f"comment_rule", "")
+    return f"{scoring_prompt}\n{comment_rule}\nHere is the scoring metrics document:\n{scoring_rules}"

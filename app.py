@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from api.chat_routes import router as chat_router
 from api.battle_routes import router as battle_router
 from api.help_routes import router as help_router
+from api.score_routes import router as score_router
 
 
 app = FastAPI(title="Rap Battle Game Backend API")
@@ -11,6 +12,7 @@ app = FastAPI(title="Rap Battle Game Backend API")
 app.include_router(chat_router)
 app.include_router(battle_router)
 app.include_router(help_router)
+app.include_router(score_router)
 
 if __name__ == "__main__":
     import uvicorn

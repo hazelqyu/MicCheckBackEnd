@@ -15,6 +15,7 @@ async def fill_in_blank_interact(request: FillInBlankRequest):
         full_bar, incomplete_bar, word_options = parse_ai_response(raw_reply)
 
         return FillInBlankResponse(
+            round=request.round,
             npc_full_bar=full_bar,
             npc_incomplete_bar=incomplete_bar,
             options=word_options

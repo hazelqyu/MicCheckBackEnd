@@ -1,7 +1,7 @@
 from openai import OpenAI
 import json
 from data.config import OPENAI_API_KEY, OPENAI_MODEL
-from services.prompt_service import get_combined_prompt, get_helper_prompt
+from services.prompt_service import get_combined_prompt, get_helper_prompt, get_scoring_prompt
 from services.conversation_manager import conversation_manager
 
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -178,4 +178,43 @@ def generate_help_response(request):
     npc_message = {"role": "assistant", "content": raw_reply}
     conversation_manager.update_conversation_history(conversation_id, npc_message)
 
+    return raw_reply
+
+
+def generate_score_response(request):
+    system_prompt = get_scoring_prompt()
+    system_message = {"role": "system", "content": system_prompt}
+    user_message = {"role": "user", "content": "\n".join(request.round_history)}
+    messages = [system_message, user_message]
+    response = client.chat.completions.create(
+        model=OPENAI_MODEL,
+        messages=messages,
+        temperature=0.8,
+        response_format={
+            "type": "json_schema",
+            "json_schema": {
+                "name": "score_response_schema",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "npc_score": {
+                            "description": "An integer",
+                            "type": "integer"
+                        },
+                        "player_score": {
+                            "description": "An integer",
+                            "type": "integer"
+                        },
+                        "comment": {
+                            "description": "A string",
+                            "type": "string"
+                        },
+                    },
+                    "required": ["npc_score", "player_score", "comment"],
+                    "additionalProperties": False
+                }
+            }
+        }
+    )
+    raw_reply = response.choices[0].message.content
     return raw_reply

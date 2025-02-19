@@ -20,11 +20,16 @@ docs_service = build('docs', 'v1', credentials=credentials)
 CHAT_PROFILE_ID = '1uxGIwY9Xh87cmCfTJczUlAZ_P9A--36suw5UFLklyfs'
 BATTLE_PROFILE_ID = '1GJAwcQMv_PDoB3CEU8LaTOI6xgG7fcc8UKEbnDDuduw'
 
+SCORING_DOC_ID = '1WniCNo5TrszT6fgWpwgPVAFD17-RGwXCQM2Fq160FlY'
 
-def extract_google_doc_content(mode: str):
-    doc_id = BATTLE_PROFILE_ID
-    if mode == "chat":
+
+def extract_google_doc_content(target_doc: str):
+    if target_doc == "battle":
+        doc_id = BATTLE_PROFILE_ID
+    elif target_doc == "chat":
         doc_id = CHAT_PROFILE_ID
+    elif target_doc == "score":
+        doc_id = SCORING_DOC_ID
     # Retrieve the document content
     doc = docs_service.documents().get(documentId=doc_id).execute()
     content = ''

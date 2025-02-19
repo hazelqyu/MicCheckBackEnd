@@ -34,7 +34,8 @@ def parse_ai_response(raw_reply: str):
         word_options = parsed_reply.get("options", [])
 
         # Validate the response structure
-        if not incomplete_bar_1 or not incomplete_bar_2 or not incomplete_bar_3 or not incomplete_bar_4 or not isinstance(word_options, list) or len(word_options) != 8:
+        if not incomplete_bar_1 or not incomplete_bar_2 or not incomplete_bar_3 or not incomplete_bar_4 or not isinstance(
+                word_options, list) or len(word_options) != 8:
             raise ValueError("Invalid response structure or missing required fields.")
 
         incomplete_bars = f"{incomplete_bar_1}\n{incomplete_bar_2}\n{incomplete_bar_3}\n{incomplete_bar_4}"
