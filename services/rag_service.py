@@ -20,7 +20,7 @@ docs_service = build('docs', 'v1', credentials=credentials)
 CHAT_PROFILE_ID = '1uxGIwY9Xh87cmCfTJczUlAZ_P9A--36suw5UFLklyfs'
 BATTLE_PROFILE_ID = '1GJAwcQMv_PDoB3CEU8LaTOI6xgG7fcc8UKEbnDDuduw'
 
-SCORING_DOC_ID = '1WniCNo5TrszT6fgWpwgPVAFD17-RGwXCQM2Fq160FlY'
+SCORING_DOC_ID = '19myTnYWqKvp9VH9WOhW2PIyUoOgpCZuiYx1sOdDNjYk'
 
 
 def extract_google_doc_content(target_doc: str):

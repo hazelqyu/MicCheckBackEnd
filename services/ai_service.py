@@ -182,9 +182,21 @@ def generate_help_response(request):
 
 
 def generate_score_response(request):
-    system_prompt = get_scoring_prompt()
+    npc_id = request.npc_id
+    player_id = request.player_id
+    conversation_id = request.conversation_id
+    scoree = request.scoree
+    rap_lyrics = request.rap_lyrics
+
+    system_prompt = get_scoring_prompt(npc_id)
     system_message = {"role": "system", "content": system_prompt}
-    user_message = {"role": "user", "content": "\n".join(request.round_history)}
+
+    history = conversation_manager.get_conversation_history(conversation_id)
+    round_prompt = (f"This is a rap battle between the NPC: {npc_id} and the player: {player_id}! "
+                    f"You are going to score the {scoree}'s rap in this round, "
+                    f"which is as follows:\n{rap_lyrics}. "
+                    f"\n\nAnd Here is the scoring history in this battle for your reference:\n{history}")
+    user_message = {"role": "user", "content": round_prompt}
     messages = [system_message, user_message]
     response = client.chat.completions.create(
         model=OPENAI_MODEL,
@@ -197,24 +209,34 @@ def generate_score_response(request):
                 "schema": {
                     "type": "object",
                     "properties": {
-                        "npc_score": {
+                        "clarity_score": {
                             "description": "An integer",
                             "type": "integer"
                         },
-                        "player_score": {
+                        "story_consistency_score": {
                             "description": "An integer",
                             "type": "integer"
                         },
-                        "comment": {
-                            "description": "A string",
-                            "type": "string"
+                        "npc_weakness_score": {
+                            "description": "An integer",
+                            "type": "integer"
+                        },
+                        "audience_preference_score": {
+                            "description": "An integer",
+                            "type": "integer"
                         },
                     },
-                    "required": ["npc_score", "player_score", "comment"],
+                    "required": ["clarity_score", "story_consistency_score", "npc_weakness_score",
+                                 "audience_preference_score"],
                     "additionalProperties": False
                 }
             }
         }
     )
     raw_reply = response.choices[0].message.content
+    update_rap = {"role": "user", "content": f"{scoree}:{rap_lyrics}"}
+    conversation_manager.update_conversation_history(conversation_id, update_rap)
+    score_message = {"role": "assistant", "content": raw_reply}
+    conversation_manager.update_conversation_history(conversation_id, score_message)
+
     return raw_reply

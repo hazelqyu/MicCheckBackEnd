@@ -1,0 +1,50 @@
+2025-02-20 14:00:42,110 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-20 14:00:45,743 - 
+AI:
+I glide on the beat, feet too fly for the street,
+Your rhymes can't compete, while mine bring the heat,
+From San Fernando to the subway's sweet tune,
+My bars illuminate, like the glow of the moon.
+2025-02-20 14:03:48,678 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-20 14:03:52,599 - 
+AI:
+Yo, Ace, you think you're the case, but it's just a phase,
+I'm breezin' through the haze, got that California craze,
+Sunbeams on my back, I'm the queen of the track,
+With my lyrics intact, watch your confidence crack.
+2025-02-20 14:04:14,539 - 
+test_001
+ User: 
+
+I'm the king of cool, rule the scene like a 1,
+While you trip and fall, looking like a 2,
+Ice in my veins, I'm never gonna 3,
+Your rhymes are weak, they ain't got the 4,
+
+2025-02-20 14:04:20,548 - 
+AI:
+You talk big game, but it sounds kinda lame,
+Sunbeams in my fame, I'm the one to acclaim,
+While you try to rise, I'm cruisin' the skies,
+Rhyme Rider surprise, watch your hopes vaporize.
+2025-02-20 14:04:34,705 - 
+test_001
+ User: 
+
+I'm number one, always shining, the 1_,
+You fumble two, can't even score, the 2_,
+Taking the lead, while the crowd goes 3_,
+Your game's so weak, can't measure up, it's 4_,
+
+2025-02-20 14:04:37,854 - 
+AI:
+Ace, you claim the crown, but it’s a lonely throne,
+Sunbeams light up my path, I’m in a league of my own,
+Breezin' past the noise, in my world of rejoice,
+While you're lost in the crowd, I'm the voice by choice.
