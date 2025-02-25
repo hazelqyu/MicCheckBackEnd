@@ -1,4 +1,4 @@
-# app.py
+# main.py
 from fastapi import FastAPI
 from api.chat_routes import router as chat_router
 from api.battle_routes import router as battle_router
