@@ -3,14 +3,30 @@ from google.oauth2 import service_account
 import numpy as np
 import faiss
 import os
+import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Google Service Account Authentication
-SERVICE_ACCOUNT_FILE = os.path.join("services", "credentials.json")
+# SERVICE_ACCOUNT_FILE = os.path.join("services", "credentials.json")
 SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/documents']
 
-credentials = service_account.Credentials.from_service_account_file(
-    SERVICE_ACCOUNT_FILE, scopes=SCOPES
-)
+# credentials = service_account.Credentials.from_service_account_file(
+#     SERVICE_ACCOUNT_FILE, scopes=SCOPES
+# )
+
+# Load credentials from environment variable instead of a file
+credentials_json = os.getenv("GOOGLE_CREDENTIALS")
+
+if credentials_json is None:
+    raise ValueError("GOOGLE_CREDENTIALS environment variable is missing")
+
+# Convert the credentials string into a dictionary
+credentials_dict = json.loads(credentials_json)
+
+# Create Google service credentials
+credentials = service_account.Credentials.from_service_account_info(credentials_dict, scopes=SCOPES)
 
 # Build Google Drive and Docs service
 drive_service = build('drive', 'v3', credentials=credentials)
