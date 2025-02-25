@@ -1,12 +1,16 @@
 # main.py
 from fastapi import FastAPI
+
+app = FastAPI(title="Rap Battle Game Backend API")
+
+@app.get("/")
+async def root():
+    return {"message": "Rap Battle Game API is running!"}
+
 from api.chat_routes import router as chat_router
 from api.battle_routes import router as battle_router
 from api.help_routes import router as help_router
 from api.score_routes import router as score_router
-
-
-app = FastAPI(title="Rap Battle Game Backend API")
 
 # Include chat and battle endpoints.
 app.include_router(chat_router)
