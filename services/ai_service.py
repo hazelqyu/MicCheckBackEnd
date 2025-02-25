@@ -213,21 +213,45 @@ def generate_score_response(request):
                             "description": "An integer",
                             "type": "integer"
                         },
+                        "explanation_1": {
+                            "description": "A string",
+                            "type": "string"
+                        },
                         "story_consistency_score": {
                             "description": "An integer",
                             "type": "integer"
+                        },
+                        "explanation_2": {
+                            "description": "A string",
+                            "type": "string"
                         },
                         "npc_weakness_score": {
                             "description": "An integer",
                             "type": "integer"
                         },
+                        "explanation_3": {
+                            "description": "A string",
+                            "type": "string"
+                        },
                         "audience_preference_score": {
                             "description": "An integer",
                             "type": "integer"
                         },
+                        "explanation_4": {
+                            "description": "A string",
+                            "type": "string"
+                        },
+                        "prediction": {
+                            "description": "An integer",
+                            "type": "integer"
+                        },
+                        "prediction_reason": {
+                            "description": "A string",
+                            "type": "string"
+                        },
                     },
                     "required": ["clarity_score", "story_consistency_score", "npc_weakness_score",
-                                 "audience_preference_score"],
+                                 "audience_preference_score", "prediction"],
                     "additionalProperties": False
                 }
             }

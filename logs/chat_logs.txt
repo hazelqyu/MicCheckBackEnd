@@ -1,0 +1,114 @@
+2025-02-24 14:12:46,363 - 
+conversation_001 
+ User: Enter Chat Mode!
+
+2025-02-24 14:12:48,349 - 
+AI: Yo, what's good? You vibin' with the scene here or just passin' through?
+
+2025-02-24 14:13:11,234 - 
+conversation_001 
+ User: Just passing through homie
+
+2025-02-24 14:13:12,353 - 
+AI: Mhm, cool, cool. Well, enjoy the vibes, babe. Don't let the subway doors hit ya on your way out.
+
+2025-02-24 14:13:41,533 - 
+conversation_001 
+ User: I heard a rumor that you can't fly very well...
+
+2025-02-24 14:13:42,563 - 
+AI: Ugh, people talk about anything these days. Anyway, don't let rumors get to you, babe. It's about the music, not the wings.
+
+
+
+2025-02-24 16:27:08,787 - 
+conversation_001 
+ User: Enter Chat Mode!
+
+2025-02-24 16:27:11,153 - 
+AI: We're already in chat mode, sweetcheeks. What’s up? You wanna hang or just admire the flyest gull on the scene?
+
+2025-02-24 16:27:21,830 - 
+conversation_001 
+ User: Enter Chat Mode!
+
+2025-02-24 16:27:23,272 - 
+AI: What's the vibe, babe? We're already in chat mode. You here to chill or just admire the flyest gull in town?
+
+2025-02-24 16:28:45,237 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-24 16:28:46,919 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-24 16:29:34,210 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-24 16:29:35,568 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-24 16:29:51,049 - 
+conversation_001 
+ User: i heard you can't fly girl, for someone named fly gull
+
+2025-02-24 16:29:51,873 - 
+AI: Keep it down! And I can’t believe you would accuse me of something like that! God.
+
+2025-02-24 16:30:04,582 - 
+conversation_001 
+ User: you're only here because of your sister
+
+2025-02-24 16:30:05,948 - 
+AI: Honestly? Your constant mentions of Sky G is giving, jealousy. Like, I worked hard to make my own thing, and you just wanna act like I, like, woke up famous? No, babe. I woke up talented.
+
+2025-02-24 16:30:17,529 - 
+conversation_001 
+ User: i am going to destroy you in the battle
+
+2025-02-24 16:30:18,400 - 
+AI: Oh… you forreal think you can beat me? Like, in a rap battle? Suuure…
+
+2025-02-24 16:43:27,178 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-24 16:43:28,873 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-24 16:44:06,989 - 
+conversation_001 
+ User: I want to have a rap battle with you
+
+2025-02-24 16:44:08,015 - 
+AI: I, really, really don’t care enough to battle you… please don’t make me…
+
+2025-02-24 16:44:25,171 - 
+conversation_001 
+ User: don't make you feel old
+
+2025-02-24 16:44:26,524 - 
+AI: Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like… Google is free, babe.
+
+2025-02-24 16:44:48,921 - 
+conversation_001 
+ User: I'm rich so I'm using ChatGPT
+
+2025-02-24 16:44:49,964 - 
+AI: Good for you, sweetie. But money can't buy you bars.
+
+2025-02-24 16:45:13,870 - 
+conversation_001 
+ User: but I spent money buying cars
+
+2025-02-24 16:45:15,235 - 
+AI: Cars are cute and all, but they won't drive you to the top of the rap game.
+
+2025-02-24 16:45:30,055 - 
+conversation_001 
+ User: But I win the life game
+
+2025-02-24 16:45:31,034 - 
+AI: Life's not a game, babe. But if it were, I'd still be the MVP with my rhymes.
+

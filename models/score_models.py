@@ -16,3 +16,4 @@ class ScoreResponse(BaseModel):
     story_consistency_score: int
     npc_weakness_score: int
     audience_preference_score: int
+    prediction: int
