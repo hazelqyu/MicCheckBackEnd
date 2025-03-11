@@ -42,7 +42,6 @@ async def get_score(request: ScoreRequest):
 def parse_ai_response(raw_reply: str):
     try:
         parsed_reply = json.loads(raw_reply)
-        print(parsed_reply)
     except json.JSONDecodeError as e:
         raise ValueError("AI response is not valid JSON") from e
 

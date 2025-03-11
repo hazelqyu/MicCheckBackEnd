@@ -1,124 +1,320 @@
-2025-02-24 14:14:10,968 -
+2025-02-25 18:14:06,231 - 
 test_001
  User: 
 Enter Battle Mode! You go first, FlyGull!
-2025-02-24 14:14:13,747 - 
+2025-02-25 18:14:09,501 - 
 AI:
-Here I stand, Fly Gull, the queen of the breeze,
-My words take flight, bringin' rivals to their knees,
-San Fernando's pride, with a vibe that's chill,
-I'll soar through your verses, with lyrical skill.
-2025-02-24 14:17:07,682 - 
+Back in San Fernando, where my verses are born,
+I’m the fire in the storm, while you barely keep warm,
+Sunbeams at my side, ready to roll and ride,
+Ace in this place, but you’re out of your stride.
+2025-02-25 18:18:27,084 - 
 test_001
  User: 
 
-I stack my paper high, like a mountain so majestic,
-Counting all my riches, yeah, my lifestyle so hectic.
-Your shoes look like they came from a bargain bodega,
-In my world, luxury's the only word you ever finagle.
+Spitting verses so hot, they leave you in a scar,
+I'm quick with the flash, make you pause, then smash,
+My flow's so cold, it makes the summer chill,
+While you're just a sea gull with a weird squawking thrill,
 
-2025-02-24 16:30:26,731 - 
+2025-02-25 18:18:29,904 - 
+AI:
+Yo, Ace, you might spit fire, but my Sunbeams glow,
+Inch by inch, I build the bridge, let the good vibes flow,
+You’re sporting fake J's, but I lead the genuine ways,
+Fly Gull’s in the skies, soaring high past your gaze.
+2025-02-25 18:23:20,219 - 
+test_001
+ User: 
+
+Rocking sun glasses, my style never fade,
+Dropping bombs on bridges, my words make them rage,
+I'm genuine, authentic, never fake or lie,
+Unlike that sea gull, whose vibes always die,
+
+2025-02-25 18:23:23,696 - 
+AI:
+Gonna take you on a ride, let my rhymes collide,
+Sunbeams shining bright, in me they confide,
+From San Fernando's vibe, where legends reside,
+Fly Gull’s steady flight, you can't match my stride.
+2025-02-25 18:34:24,090 - 
 test_001
  User: 
 Enter Battle Mode! You go first, FlyGull!
-2025-02-24 16:30:30,107 - 
+2025-02-25 18:34:27,482 - 
 AI:
-Yo, Fly Gull in the house, and I'm ready to soar,
-San Fernando's finest, got my fans wanting more,
-With these rhymes so divine, they echo through the core,
-Ride the subway of beats, hear the crowd's mighty roar.
-2025-02-24 16:31:58,050 - 
+Breezin' through the scene, my rhymes are pristine,
+Ace, you're a new face, but I own this place,
+From San Fernando's grace, to the subway's embrace,
+Fly Gull's legacy leaves a trail you can't ___
+2025-02-25 18:35:41,420 - 
 test_001
  User: 
 
-Dressed so fresh, like I just stepped out the mall.
-My style's so unique, it's like a fashion fame of hall.
-They try to mimic me, but can't reach my league.
-You're all grounded, like birds with no wings.
+I'm on the rail, moving smooth like a bitch,
+While others derail, their plans go dumb,
+Can't match my momentum, I always crap,
+I'm full steam ahead, no chance I'll lose,
 
-2025-02-24 16:32:00,820 - 
+2025-02-25 18:35:44,181 - 
 AI:
-You talk about trends, but I'm setting the pace,
-In the rap game, it's my words that embrace,
-While you're stuck on fashion, I'm flying with grace,
-San Fernando's pride, in this lyrical race.
-2025-02-24 16:33:08,260 - 
+Smooth moves on the groove, Fly Gull never shamed,
+In the hall of fame, my legacy's inflamed,
+Ace, your flow's a game, but I'm the real claim,
+In the subway's name, I'll rise and take the aim.
+2025-02-25 18:36:58,633 - 
 test_001
  User: 
 
-Crowd goes wild when I step to the stage.
-Applause so loud, echoing through the haze.
-You can't match the love, you can only cry.
-While I'm feasting on success, you can't eat your fries.
+I'm writing my future like a well-read book,
+While others get lost, their pages just tear,
+I'm the author of my saga, no need to cry,
+Critics talk loud, but their words just die,
 
-2025-02-24 16:33:11,185 - 
+2025-02-25 18:37:01,804 - 
 AI:
-Fries or no fries, I'm on a lyrical diet,
-My bars are so hot, they cause a riot,
-Feast on my vibes, no need to deny it,
-Sunbeams in the crowd, they never keep quiet.
-2025-02-24 16:42:15,313 - 
+From the pages of my life, I'm painting a flight,
+While you scribble in the night, your dreams out of sight,
+Critics may bark, but my Sunbeams ignite,
+With Fly Gull's light, I’m soaring past your ___
+2025-02-25 18:41:39,054 - 
 test_001
  User: 
 Enter Battle Mode! You go first, FlyGull!
-2025-02-24 16:42:18,435 - 
+2025-02-25 18:41:42,385 - 
 AI:
-Yo, Fly Gull in the house, and I'm ready to soar,
-San Fernando's finest, got my fans wanting more,
-With these rhymes so divine, they echo through the core,
-Ride the subway of beats, hear the crowd's mighty roar.
-2025-02-24 16:45:46,207 - 
-test_001
- User: 
-Enter Battle Mode! You go first, FlyGull!
-2025-02-24 16:45:49,100 - 
-AI:
-Yo, Fly Gull in the house, and I'm ready to soar,
-San Fernando's finest, got my fans wanting more,
-With these rhymes so divine, they echo through the core,
-Ride the subway of beats, hear the crowd's mighty roar.
-2025-02-24 16:47:44,071 - 
+In sunny San Fernando, my tale has begun,
+With rhymes so smooth, like rays of the sun,
+Fake Jordans on your feet, but my style is elite,
+Fly Gull’s on the beat, making competition ___
+2025-02-25 18:42:12,491 - 
 test_001
  User: 
 
-Got the cottontail Gummies, sweeter than a cutie.
-Taste so good, it's like a sugar daddy.
-While you're stuck with nothing, can't score a .
-I'm living sweetly, you're missing all the homies.
-
-2025-02-24 16:47:47,333 - 
+2025-02-25 18:42:15,764 - 
 AI:
-You talk about sweets, but I'm the real delight,
-In this game of rhymes, I take flight like a kite,
-With a vibe so bright, it's shining every night,
-Sunbeams standing strong, in this lyrical fight.
-2025-02-25 15:34:50,405 - 
-test_001
- User: 
-Enter Battle Mode! You go first, FlyGull!
-2025-02-25 15:34:55,242 - 
-AI:
-From the West Coast, always bringin' the most,
-On this subway, watch me coast, I'm the host,
-Sunbeams cheer as I fly far and wide,
-Ace, let's see if you can match this vibe.
-2025-02-25 15:39:23,870 - 
-test_001
- User: 
-Enter Battle Mode! You go first, FlyGull!
-2025-02-25 15:39:27,405 - 
-AI:
-Yo, it's Fly Gull comin' through, paintin' skies with my rhyme,
-From the tracks to the stage, every moment's my time,
-With a beat in my soul, I cruise on life's line,
-Got the Sunbeams with me, together we shine.
-2025-02-25 15:39:55,486 - 
+Yo, I'm the Gull that soars, while you mimic the shores,
+In the game of rap wars, my rhymes open doors,
+Sunbeams light the way, they shine where I play,
+From the Subway to L.A., Fly Gull's here to ___
+2025-02-25 18:43:07,335 - 
 test_001
  User: 
 
-2025-02-25 15:39:58,847 - 
+You talk a big game but can't back it with ,
+All that noise you make, it's just a load of ,
+You act like a king, but you're really a ,
+Step off the stage, your show's out of ,
+
+You think you're hot, but you're just a chill ___,
+Got no substance, just empty like a ___,
+Your words fall flat, like a broken ___,
+Game so weak, always come up ___,
+
+2025-02-25 18:43:11,266 - 
 AI:
-I'm the queen of this scene, with a rhyme machine,
-From Cali to the city, where I keep it so clean,
-Ace, you tryna step up, but you're just a routine,
-I'm the dream on the stream, you're just a small screen.
+Talking all that trash, but I'm the rhyme slinger,
+In the rap game, I'm the bell ringer, I'm the bringer,
+From coast to coast, my Sunbeams boast,
+Fly Gull’s here to toast, not one to ___
+2025-02-25 18:50:15,151 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-25 18:50:18,348 - 
+AI:
+In San Fernando's glow, where my story unfolds,
+My rhymes are like gold, straight from the soul,
+Sunbeams in my stride, on this ride, I glide,
+While you hide your pride, I'm soaring worldwide.
+2025-02-25 18:54:44,435 - 
+test_001
+ User: 
+
+I built my wealth, didn't need no help,
+While you pedal away, dreaming you can belt,
+Every dollar I earned, through sweat and blood,
+But you on a bike, never touch the cloud,
+
+2025-02-25 18:54:47,698 - 
+AI:
+Yeah, I'm biking through life, but I reach new heights,
+In this rap game, my bars ignite the nights,
+Sunbeams got my back, they know my track,
+From the stage to the subway, Fly Gull don’t ___
+2025-02-25 18:58:06,487 - 
+test_001
+ User: 
+
+I'm nobody now, but watch me grow,
+I'll be more famous than you, that's my hopw,
+Sunbeams can't grow, trees need deep soil,
+Your shallow roots won't see you boil,
+
+2025-02-25 18:58:10,252 - 
+AI:
+In this rap game, I'm the one who's been crowned,
+Sunbeams by my side, their cheers all around,
+Your words like whispers, drowned out in my sound,
+While I stand my ground, your fame won't be ___
+2025-02-25 19:10:35,099 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-25 19:10:40,425 - 
+AI:
+In the city lights, Fly Gull takes flight,
+Riding high with pride, I’m the Sunbeam guide,
+With each rhyme I write, I paint the night,
+From the crowd’s delight, my legacy takes ___
+2025-02-25 19:13:21,548 - 
+test_001
+ User: 
+
+I'm the newcomer, but more known than You,
+Your fame's fading while mine just Cool,
+At least fries ain't in my food Ew,
+Your stale routine just won't Do,
+
+2025-02-25 19:13:26,414 - 
+AI:
+You talk a big game, but it’s time to confess,
+In this rap scene, Fly Gull’s got finesse,
+From San Fernando's nest, I rise and invest,
+While you try your best, I leave you impressed.
+2025-02-25 19:15:15,395 - 
+test_001
+ User: 
+
+I've got money stacked, and shoes so fresh,
+My collection's real, can't stand in my breath,
+You rock fake Jordans, that's old news,
+In this game of style, you always lose,
+
+2025-02-25 19:15:20,305 - 
+AI:
+While you flaunt your stacks, I'm dropping tracks,
+In the rap game's pact, I never retract,
+From the Subway to the stage, I engage the crowd,
+I'm Fly Gull on the rise, making Sunbeams ___
+2025-02-25 19:24:19,237 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-25 19:24:21,838 - 
+AI:
+Yo, I'm Fly Gull, known for my chill thrills,
+From San Fernando to the peak of the hills.
+My rhymes fly high, while your fake Jordans squeak by,
+You try to fit in but can't touch the sky.
+2025-02-25 19:26:39,488 - 
+test_001
+ User: 
+
+Steppin' out fresh, got them kicks that are steel,
+You try to soar, but your dreams stay unreal,
+My sneakers so clean, they shimmer and glow,
+Your flightless attempts, like a bird without flow,
+
+2025-02-25 19:26:43,325 - 
+AI:
+You flexin' those kicks, but I've soared since birth,
+While you struggle to rise, I'm grounded in worth.
+From San Fernando's streets, I bring the heat,
+In this rap game, Fly Gull can't be beat.
+2025-02-25 19:28:36,807 - 
+test_001
+ User: 
+
+My dog's on the hunt, ready to strike,
+You squawk like a bird, but you're just lime,
+In the animal kingdom, you're the weakest thing,
+While my canine's the king, you're left in the ring,
+
+2025-02-25 19:28:42,211 - 
+AI:
+You barkin' up my tree, but I'm soaring above,
+In the rap realm, I'm the one to truly love.
+You claim you're the king, but that's just a fling,
+Fly Gull's the ruler, with lines that truly zing.
+2025-02-26 14:05:00,053 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-26 14:05:08,515 - 
+AI:
+In the subway stop, hear the echoes of my name,
+Fly Gull takin' flight, in this rap game, I claim,
+My words spread like fire, set the rhythm ablaze,
+Sunbeams in the crowd, vibin' to my phrase.
+2025-02-26 14:35:15,094 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-26 14:35:18,953 - 
+AI:
+In the subway stop, hear the echoes of my name,
+Fly Gull takin' flight, in this rap game, I claim,
+My words spread like fire, set the rhythm ablaze,
+Sunbeams in the crowd, vibin' to my phrase.
+2025-02-26 14:56:31,167 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-26 14:56:35,208 - 
+AI:
+Yo, it's Fly Gull, I'm risin' from the West Coast,
+With rhymes so chilly, they can even freeze toast,
+In the subway, my domain, where the echoes boast,
+Ace, you look lost, caught in your own boast.
+2025-02-26 14:56:57,396 - 
+test_001
+ User: 
+
+I'm the king of the street, never play by the ,
+While you out here, lookin' lost, actin' like a ,
+I'm a diamond in the rough, shining like a ,
+And you can't catch up, too slow, like a broken ,
+
+2025-02-26 14:57:00,460 - 
+AI:
+You claim you're king, but your throne's made of dust,
+While I'm flyin' high, my Sunbeams know who to trust,
+In this rap maze, I'm the one who won't bust,
+Your rhymes lack daze, just a weak gust of rust.
+2025-02-26 15:03:21,390 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-02-26 15:03:25,811 - 
+AI:
+Yo, it's Fly Gull, I’m droppin’ rhymes like a shower,
+From the Golden State, where we own every hour,
+On the subway, I’m the queen, Ace, you know the power,
+Watch me bloom, while your style starts to sour.
+2025-03-11 16:09:46,309 - 
+test_001
+ User: 
+Enter Battle Mode! You go first, FlyGull!
+2025-03-11 16:09:50,132 - 
+AI:
+I'm Fly Gull, no need to take a stroll,
+With beats that roll, I control, make it swell,
+From San Fernando, where the stories unfold,
+Got the rhythm in my soul, let the truth be told.
+2025-03-11 16:10:19,201 - 
+test_001
+ User: 
+
+I'm so cool, got ice in my veins, no haha,
+While you stutter and stumble, feeling the lala,
+I glide through the scene, you're stuck in the haha,
+I'm the future, you're just yesterday's lala,
+
+2025-03-11 16:10:22,811 - 
+AI:
+Chillin' in the sun, where my Sunbeams reside,
+My rhymes and vibes, they collide worldwide,
+From the coast of Cali, where the waves provide,
+Rhyme Rider in stride, feel the rise, let it ride.

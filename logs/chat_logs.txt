@@ -1,114 +1,378 @@
-2025-02-24 14:12:46,363 - 
-conversation_001 
- User: Enter Chat Mode!
-
-2025-02-24 14:12:48,349 - 
-AI: Yo, what's good? You vibin' with the scene here or just passin' through?
-
-2025-02-24 14:13:11,234 - 
-conversation_001 
- User: Just passing through homie
-
-2025-02-24 14:13:12,353 - 
-AI: Mhm, cool, cool. Well, enjoy the vibes, babe. Don't let the subway doors hit ya on your way out.
-
-2025-02-24 14:13:41,533 - 
-conversation_001 
- User: I heard a rumor that you can't fly very well...
-
-2025-02-24 14:13:42,563 - 
-AI: Ugh, people talk about anything these days. Anyway, don't let rumors get to you, babe. It's about the music, not the wings.
-
-
-
-2025-02-24 16:27:08,787 - 
-conversation_001 
- User: Enter Chat Mode!
-
-2025-02-24 16:27:11,153 - 
-AI: We're already in chat mode, sweetcheeks. What’s up? You wanna hang or just admire the flyest gull on the scene?
-
-2025-02-24 16:27:21,830 - 
-conversation_001 
- User: Enter Chat Mode!
-
-2025-02-24 16:27:23,272 - 
-AI: What's the vibe, babe? We're already in chat mode. You here to chill or just admire the flyest gull in town?
-
-2025-02-24 16:28:45,237 - 
+2025-02-25 18:08:09,329 - 
 conversation_001 
  User: Excuse me!
 
-2025-02-24 16:28:46,919 - 
+2025-02-25 18:08:11,408 - 
 AI: Mhm… can I help you? Like, why are you in my face?
 
-2025-02-24 16:29:34,210 - 
+2025-02-25 18:09:13,782 - 
 conversation_001 
- User: Excuse me!
+ User: Hi
 
-2025-02-24 16:29:35,568 - 
-AI: Mhm… can I help you? Like, why are you in my face?
+2025-02-25 18:09:14,569 - 
+AI: What’s up, babe? Do you, like, want my autograph? No? Mhm kay.
 
-2025-02-24 16:29:51,049 - 
+2025-02-25 18:09:39,865 - 
 conversation_001 
- User: i heard you can't fly girl, for someone named fly gull
+ User: Okay???
 
-2025-02-24 16:29:51,873 - 
-AI: Keep it down! And I can’t believe you would accuse me of something like that! God.
-
-2025-02-24 16:30:04,582 - 
-conversation_001 
- User: you're only here because of your sister
-
-2025-02-24 16:30:05,948 - 
-AI: Honestly? Your constant mentions of Sky G is giving, jealousy. Like, I worked hard to make my own thing, and you just wanna act like I, like, woke up famous? No, babe. I woke up talented.
-
-2025-02-24 16:30:17,529 - 
-conversation_001 
- User: i am going to destroy you in the battle
-
-2025-02-24 16:30:18,400 - 
-AI: Oh… you forreal think you can beat me? Like, in a rap battle? Suuure…
-
-2025-02-24 16:43:27,178 - 
-conversation_001 
- User: Excuse me!
-
-2025-02-24 16:43:28,873 - 
-AI: Mhm… can I help you? Like, why are you in my face?
-
-2025-02-24 16:44:06,989 - 
-conversation_001 
- User: I want to have a rap battle with you
-
-2025-02-24 16:44:08,015 - 
-AI: I, really, really don’t care enough to battle you… please don’t make me…
-
-2025-02-24 16:44:25,171 - 
-conversation_001 
- User: don't make you feel old
-
-2025-02-24 16:44:26,524 - 
+2025-02-25 18:09:40,803 - 
 AI: Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like… Google is free, babe.
 
-2025-02-24 16:44:48,921 - 
+2025-02-25 18:09:56,850 - 
 conversation_001 
- User: I'm rich so I'm using ChatGPT
+ User: Who are you
 
-2025-02-24 16:44:49,964 - 
-AI: Good for you, sweetie. But money can't buy you bars.
+2025-02-25 18:09:57,801 - 
+AI: You don’t know me? Kinda funny, ‘cause I don’t know you either—and I actually matter.
 
-2025-02-24 16:45:13,870 - 
+2025-02-25 18:30:36,548 - 
 conversation_001 
- User: but I spent money buying cars
+ User: Excuse me!
 
-2025-02-24 16:45:15,235 - 
-AI: Cars are cute and all, but they won't drive you to the top of the rap game.
+2025-02-25 18:30:38,101 - 
+AI: Mhm… can I help you? Like, why are you in my face?
 
-2025-02-24 16:45:30,055 - 
+2025-02-25 18:30:46,512 - 
 conversation_001 
- User: But I win the life game
+ User: idk
 
-2025-02-24 16:45:31,034 - 
-AI: Life's not a game, babe. But if it were, I'd still be the MVP with my rhymes.
+2025-02-25 18:30:47,521 - 
+AI: Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like… Google is free, babe.
+
+2025-02-25 18:31:11,326 - 
+conversation_001 
+ User: ok bab
+
+2025-02-25 18:31:12,100 - 
+AI: You don’t know me? Kinda funny, ‘cause I don’t know you either—and I actually matter.
+
+2025-02-25 18:31:19,136 - 
+conversation_001 
+ User: what is your bname
+
+2025-02-25 18:31:20,227 - 
+AI: I'm Fly Gull, babe. You know, the Rhyme Rider of The Subway? If you don’t, you should probably, like, catch up.
+
+2025-02-25 18:31:32,969 - 
+conversation_001 
+ User: pls tell me
+
+2025-02-25 18:31:34,013 - 
+AI: Ugh, seriously? It’s Fly Gull, like the seagull, but fly. You get it now?
+
+2025-02-25 18:31:58,413 - 
+conversation_001 
+ User: yep
+
+2025-02-25 18:31:59,233 - 
+AI: Great, glad we cleared that up. So, like, what else do you wanna know?
+
+2025-02-25 18:32:08,310 - 
+conversation_001 
+ User: tell me about the battle 
+
+2025-02-25 18:32:09,134 - 
+AI: Oh… you forreal think you can beat me? Like, in a rap battle? Suuure…
+
+2025-02-25 18:32:31,604 - 
+conversation_001 
+ User: will you give me hints
+
+2025-02-25 18:32:32,583 - 
+AI: Sweetcheeks, you really think you’re ready? I think you should hang around, vibe with us a lil… maybe you’ll change your mind.
+
+2025-02-25 18:34:00,439 - 
+conversation_001 
+ User: french fries please
+
+2025-02-25 18:34:01,164 - 
+AI: Did you just say french fries? Whatever, I, like, literally don’t care…
+
+2025-02-25 18:40:23,494 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-25 18:40:25,476 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-25 18:41:06,475 - 
+conversation_001 
+ User: what are you doing
+
+2025-02-25 18:41:07,778 - 
+AI: Just chillin' here with my Sunbeams, you know? It's all about the vibes, babe.
+
+2025-02-25 18:41:19,110 - 
+conversation_001 
+ User: 
+
+2025-02-25 18:41:20,471 - 
+AI: Just chillin' here with my Sunbeams, you know? It's all about the vibes, babe.
+
+2025-02-25 18:45:24,232 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-25 18:45:25,926 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-25 18:45:54,031 - 
+conversation_001 
+ User: I like your face
+
+2025-02-25 18:45:55,110 - 
+AI: Aww, you’re sweet. But, like, you’ve clearly got great taste.
+
+2025-02-25 18:46:18,176 - 
+conversation_001 
+ User: what are you doing here?
+
+2025-02-25 18:46:19,174 - 
+AI: Just vibin' with my Sunbeams at the Subway Station, you know? It's my turf, babe.
+
+2025-02-25 18:46:31,427 - 
+conversation_001 
+ User: who are sunbeams?
+
+2025-02-25 18:46:32,382 - 
+AI: Sunbeams, babe, are my fans. They're the chillest, most fun-loving crew around. You can't miss 'em!
+
+2025-02-25 18:46:47,178 - 
+conversation_001 
+ User: why are they called sunbeams
+
+2025-02-25 18:46:48,339 - 
+AI: Well, because they, like, totally bring the light wherever they go, you know? Just like sunshine. Plus, they vibe with my whole California, laid-back style. It fits.
+
+2025-02-25 18:47:36,661 - 
+conversation_001 
+ User: clever name. How did you get here?
+
+2025-02-25 18:47:38,231 - 
+AI: Skylar was like, go to this subway stop and do your thing and I was like, whatever, sure. And they all loved me of course… So yeaaah, I’m like a rap legend or whatevs.
+
+2025-02-25 18:47:57,537 - 
+conversation_001 
+ User: how did you get to the subway?
+
+2025-02-25 18:47:59,165 - 
+AI: Oh, you mean like physically? Well, I just, uh, rode my bike down here. It’s kinda my thing, you know, bike life and all. Flying’s not really my strong suit.
+
+2025-02-25 18:48:27,523 - 
+conversation_001 
+ User: hmm, got it. Very environmental friendly though.
+
+2025-02-25 18:48:28,711 - 
+AI: Yeah, I guess you could say that. Plus, it keeps me grounded, you know? It’s like, a totally different vibe from flying.
+
+2025-02-25 18:48:46,489 - 
+conversation_001 
+ User: what is your favorite food?
+
+2025-02-25 18:48:47,862 - 
+AI: Listen sweetie, I’d talk to you more but I literally gave up on hot dogs since I was a baby… and don’t even get me started on fries. Next question, please?
+
+2025-02-25 18:49:40,396 - 
+conversation_001 
+ User: wow, you sounds don't like this questions.
+
+2025-02-25 18:49:41,466 - 
+AI: Yeah, fast food's kinda a touchy subject for me. I miss those fries, but the celeb life demands sacrifices, you know?
+
+2025-02-25 19:04:16,899 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-25 19:04:18,507 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-25 19:05:01,210 - 
+conversation_001 
+ User: I'm in your face because I'm about to take your place!
+
+2025-02-25 19:05:03,232 - 
+AI: Oh… you forreal think you can beat me? Like, in a rap battle? Suuure…
+
+2025-02-25 19:05:16,528 - 
+conversation_001 
+ User: What do you rap about? What makes you scared?
+
+2025-02-25 19:05:18,595 - 
+AI: I rap about life in San Fernando, the vibes, the highs, and the grind. As for what makes me scared... let’s just say I’m not a fan of flying into hard surfaces. But hey, I work with what I got, right?
+
+2025-02-25 19:05:56,624 - 
+conversation_001 
+ User: What is the most embarassing moment you've experienced?
+
+2025-02-25 19:05:57,914 - 
+AI: Ugh, probably that time I tried to show off my flying skills and ended up faceplanting into a billboard. Not my finest moment, babe.
+
+2025-02-25 19:07:35,484 - 
+conversation_001 
+ User: Clothing you hate?
+
+2025-02-25 19:07:36,792 - 
+AI: Honestly? Those fake Jordans. Like, if you're gonna wear 'em, at least make 'em real, you know? It's just... no.
+
+2025-02-25 19:07:48,415 - 
+conversation_001 
+ User: What hairstyle do you do?
+
+2025-02-25 19:07:50,146 - 
+AI: I keep it fresh with a slick back and a bit of flair. Gotta make sure it complements my feathers, you know? It's all about that signature Fly Gull style.
+
+2025-02-25 19:08:17,556 - 
+conversation_001 
+ User: Why do you wear glasses?
+
+2025-02-25 19:08:19,642 - 
+AI: These shades? They're not just for style, babe, though they do look fly. They help me keep cool under the bright lights and keep that mysterious vibe going. Plus, you know, they help hide when I, uh, accidentally fly into stuff.
+
+2025-02-25 19:09:46,084 - 
+conversation_001 
+ User: What's a place you hate?
+
+2025-02-25 19:09:47,500 - 
+AI: I’m not really a fan of fast food joints, honestly. It’s all about those fries I can’t have. Just brings up too many cravings, you know?
+
+2025-02-25 19:09:54,755 - 
+conversation_001 
+ User: Why are you craving?
+
+2025-02-25 19:09:56,308 - 
+AI: I mean, who doesn't crave fries, right? They were, like, my weakness before I had to give 'em up for the whole celeb diet thing. It's a sacrifice, but, you know, the show must go on.
+
+2025-02-25 19:10:16,459 - 
+conversation_001 
+ User: I doubt you cut fries from your diet
+
+2025-02-25 19:10:18,222 - 
+AI: Listen, I literally don't care what you think. I’m just doing what I gotta do for my career. You don’t know what’s on my plate, babe.
+
+2025-02-25 19:21:41,400 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-25 19:21:43,290 - 
+AI: Mhm... can I help you? Like, why are you in my face?
+
+2025-02-25 19:21:57,256 - 
+conversation_001 
+ User: Just passing by
+
+2025-02-25 19:21:57,935 - 
+AI: Cool, cool. Just, like, keep it breezy, alright?
+
+2025-02-25 19:22:05,543 - 
+conversation_001 
+ User: Where you are here
+
+2025-02-25 19:22:07,133 - 
+AI: Skylar was like, go to this subway stop and do your thing and I was like, whatever, sure. And they all loved me of course... So yeaaah, I’m like a rap legend or whatevs.
+
+2025-02-25 19:22:27,992 - 
+conversation_001 
+ User: You are nothing
+
+2025-02-25 19:22:32,439 - 
+AI: Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like... Google is free, babe.
+
+2025-02-25 19:23:12,602 - 
+conversation_001 
+ User: Whats your favorite food
+
+2025-02-25 19:23:14,119 - 
+AI: Did you just say french fries? Whatever, I, like, literally don’t care...
+
+2025-02-25 19:23:55,823 - 
+conversation_001 
+ User: Are you on diet?
+
+2025-02-25 19:23:56,615 - 
+AI: I literally don’t care what you eat. I literally don’t care if people around me eat fries.
+
+2025-02-26 14:03:39,729 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-26 14:03:42,168 - 
+AI: Mhm... can I help you? Like, why are you in my face?
+
+2025-02-26 14:04:10,830 - 
+conversation_001 
+ User: Because I like your face
+
+2025-02-26 14:04:11,889 - 
+AI: Aww, you're sweet. But, like, you've clearly got great taste.
+
+2025-02-26 14:04:39,210 - 
+conversation_001 
+ User: What did you have for lunch
+
+2025-02-26 14:04:40,370 - 
+AI: Did you just say french fries? Whatever, I, like, literally don't care...
+
+2025-02-26 14:10:06,714 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-26 14:10:08,455 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-26 14:34:39,570 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-26 14:34:43,399 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-26 14:34:59,574 - 
+conversation_001 
+ User: What's your favourate food
+
+2025-02-26 14:35:00,495 - 
+AI: I literally don't care what you eat. I literally don't care if people around me eat fries.
+
+2025-02-26 14:56:19,371 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-26 14:56:21,583 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-26 14:56:24,178 - 
+conversation_001 
+ User: 
+
+2025-02-26 14:56:25,025 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-26 15:02:35,149 - 
+conversation_001 
+ User: Excuse me!
+
+2025-02-26 15:02:37,241 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-02-26 15:02:59,964 - 
+conversation_001 
+ User: Where are you from?
+
+2025-02-26 15:03:01,048 - 
+AI: San Fernando, California, babe. It's the place to be if you wanna vibe like me.
+
+2025-03-11 16:10:57,928 - 
+conversation_001 
+ User: Excuse me!
+
+2025-03-11 16:11:06,165 - 
+AI: Mhm… can I help you? Like, why are you in my face?
+
+2025-03-11 16:11:22,532 - 
+conversation_001 
+ User: hi!
+
+2025-03-11 16:11:23,523 - 
+AI: Hey there… what’s up?
 
