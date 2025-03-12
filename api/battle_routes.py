@@ -3,6 +3,7 @@ from models.battle_models import FillInBlankRequest, FillInBlankResponse
 from services.ai_service import generate_fill_in_blank_response
 import json
 import logging
+import sys
 
 router = APIRouter()
 
@@ -12,10 +13,15 @@ battle_logger = logging.getLogger("battle")
 battle_logger.setLevel(logging.INFO)
 
 # Ensure the logger does not duplicate handlers
+# if not battle_logger.handlers:
+#     file_handler = logging.FileHandler("logs/battle_logs.txt", encoding="utf-8")
+#     file_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+#     battle_logger.addHandler(file_handler)
+
 if not battle_logger.handlers:
-    file_handler = logging.FileHandler("logs/battle_logs.txt", encoding="utf-8")
-    file_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
-    battle_logger.addHandler(file_handler)
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+    battle_logger.addHandler(stream_handler)
 
 
 @router.post("/battle/fill_in_blank", response_model=FillInBlankResponse)

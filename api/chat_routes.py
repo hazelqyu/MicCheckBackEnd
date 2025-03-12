@@ -2,16 +2,22 @@ from fastapi import APIRouter, HTTPException
 from models.chat_models import ChatRequest, ChatResponse
 from services.ai_service import generate_chat_response
 import logging
+import sys
 
 router = APIRouter()
 
 chat_logger = logging.getLogger("chat")
 chat_logger.setLevel(logging.INFO)
 
+# if not chat_logger.handlers:
+#     file_handler = logging.FileHandler("logs/chat_logs.txt", encoding="utf-8")
+#     file_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+#     chat_logger.addHandler(file_handler)
+
 if not chat_logger.handlers:
-    file_handler = logging.FileHandler("logs/chat_logs.txt", encoding="utf-8")
-    file_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
-    chat_logger.addHandler(file_handler)
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+    chat_logger.addHandler(stream_handler)
 
 
 @router.post("/chat", response_model=ChatResponse)

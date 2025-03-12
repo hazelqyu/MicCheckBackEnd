@@ -3,16 +3,22 @@ from models.score_models import ScoreRequest, ScoreResponse
 from services.ai_service import generate_score_response
 import json
 import logging
+import sys
 
 router = APIRouter()
 
 score_logger = logging.getLogger("score")
 score_logger.setLevel(logging.INFO)
 
+# if not score_logger.handlers:
+#     file_handler = logging.FileHandler("logs/score_logs.txt", encoding="utf-8")
+#     file_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+#     score_logger.addHandler(file_handler)
+
 if not score_logger.handlers:
-    file_handler = logging.FileHandler("logs/score_logs.txt", encoding="utf-8")
-    file_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
-    score_logger.addHandler(file_handler)
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+    score_logger.addHandler(stream_handler)
 
 
 @router.post("/score", response_model=ScoreResponse)
