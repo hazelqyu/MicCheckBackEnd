@@ -66,3 +66,11 @@ def get_scoring_prompt(npc_id: str) -> str:
             f"Here is the scoring metrics document:\n{scoring_docs}\n\n"
             f"Here are the weaknesses of this NPC {npc_id}:"
             f"\n1. {weakness_prompt_1}\n2. {weakness_prompt_2}\n3. {weakness_prompt_3}")
+
+
+def get_gossip_prompt() -> str:
+    bystander = extract_google_doc_content("bystander")
+    fan = extract_google_doc_content("fan")
+
+    return (f"You might be a bystander of Fly Gull or you might be a fan. Here are the guidelines of how you should "
+            f"reply.\n If you are a bystander:\n{bystander}\nIf you are a fan:\n{fan}")
