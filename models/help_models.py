@@ -11,5 +11,8 @@ class HelpRequest(BaseModel):
 
 
 class HelpResponse(BaseModel):
-    incomplete_bars: str
+    incomplete_bar_1: str
+    incomplete_bar_2: str
+    incomplete_bar_3: str
+    incomplete_bar_4: str
     options: List[str]
