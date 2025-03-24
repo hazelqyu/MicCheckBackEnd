@@ -1,0 +1,139 @@
+2025-03-18 22:23:58,236 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 22:24:01,379 - Weakness detected:True
+Content:[]
+Weaknesses:[]
+2025-03-18 22:58:05,168 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 22:58:06,649 - ERROR: 2 validation errors for DetectResponse
+highlights.0
+  Input should be a valid tuple [type=tuple_type, input_value='Bad at flying', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/tuple_type
+weaknesses.0
+  Input should be a valid string [type=string_type, input_value=[27, 57], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-18 23:00:20,774 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:00:21,532 - Weakness detected:True
+Content:[(21, 88)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:01:42,254 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:01:42,977 - Weakness detected:True
+Highlights:[(18, 22), (53, 100)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:03:44,937 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:03:45,618 - Weakness detected:True
+Highlights:[(36, 115)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:05:31,082 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:05:33,672 - Weakness detected:True
+Highlights:[(24, 83)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:33:04,312 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:33:05,923 - Weakness detected:True
+Highlights:[(33, 80)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:34:24,305 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:34:24,944 - Weakness detected:True
+Highlights:[(23, 63)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:35:57,483 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:35:58,591 - Weakness detected:True
+Highlights:[(45, 113)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:43:22,299 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:43:22,872 - Weakness detected:True
+Highlights:[(35, 94)]
+Weaknesses:['Bad at flying']
+2025-03-18 23:57:50,072 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-18 23:57:50,998 - ERROR: 1 validation error for DetectResponse
+highlights.0
+  Input should be a valid dictionary or instance of HighlightRange [type=model_type, input_value=(13, 48), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_type
+2025-03-19 00:00:23,683 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-19 00:00:24,643 - ERROR: 1 validation error for DetectResponse
+highlights
+  Field required [type=missing, input_value={'detected': True, 'weakn...ange(start=24, end=76)]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-19 00:04:23,745 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-19 00:04:24,589 - ERROR: 'DetectResponse' object has no attribute 'highlight_indices'
+2025-03-19 00:05:51,675 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-19 00:05:52,752 - Weakness detected: True
+Highlights: [HighlightRange(start=11, end=36), HighlightRange(start=58, end=101)]
+Weaknesses: ['Bad at flying, prefers biking']
+2025-03-19 00:08:52,086 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-19 00:08:53,260 - Weakness detected: True
+Highlights: [HighlightRange(start=13, end=51)]
+Weaknesses: ['Bad at flying']
+2025-03-19 14:16:53,425 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-19 14:16:55,361 - Weakness detected: True
+Highlights: [HighlightRange(start=13, end=48)]
+Weaknesses: ['Bad at flying']
+2025-03-19 14:58:30,017 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-19 14:58:31,918 - Weakness detected: True
+Highlights: [HighlightRange(start=0, end=109)]
+Weaknesses: ['Bad at flying']
+2025-03-19 15:27:10,259 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-19 15:27:11,386 - Weakness detected: True
+Highlights: [HighlightRange(start=9, end=44)]
+Weaknesses: ['Bad at flying']
+2025-03-24 12:26:59,521 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 12:27:01,927 - Weakness detected: True
+Highlights: [HighlightRange(start=11, end=47), HighlightRange(start=48, end=101)]
+Weaknesses: ['Bad at flying']
+2025-03-24 12:27:14,394 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 12:27:15,543 - Weakness detected: True
+Highlights: [HighlightRange(start=15, end=56)]
+Weaknesses: ['Bad at flying']
+2025-03-24 12:30:18,349 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 12:30:19,150 - Weakness detected: True
+Highlights: [HighlightRange(start=11, end=51)]
+Weaknesses: ['Bad at flying']
+2025-03-24 12:45:30,313 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 12:45:31,655 - Weakness detected: True
+Highlights: [HighlightRange(start=32, end=73)]
+Weaknesses: ['bad at flying']
+2025-03-24 13:05:10,218 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 13:05:13,354 - Weakness detected: True
+Highlights: ['rode my bike here again', 'Flying? Nah, I always end up crashing into a lamppost'],[HighlightRange(start=12, end=32), HighlightRange(start=34, end=95)]
+Weaknesses: ['bad at flying']
+2025-03-24 13:05:30,733 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 13:05:32,296 - Weakness detected: True
+Highlights: ['I just rode my bike here again', 'Flying? Nah, I always end up crashing into a lamppost or something'],[HighlightRange(start=12, end=39), HighlightRange(start=41, end=103)]
+Weaknesses: ['Bad at flying']
+2025-03-24 13:06:56,899 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 13:06:59,465 - Weakness detected: True
+Highlights: ['I just rode my bike here again.', 'Flying? Nah, I always end up crashing into a lamppost or something.'],[HighlightRange(start=10, end=38), HighlightRange(start=40, end=98)]
+Weaknesses: ['bad at flying']
+2025-03-24 13:12:30,201 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 13:12:31,573 - Weakness detected: True
+Highlights: ['rode my bike', 'crashing into a lamppost'],[HighlightRange(start=14, end=25), HighlightRange(start=57, end=80)]
+Weaknesses: ['bad at flying']
+2025-03-24 13:39:11,072 - message:
+Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing into a lamppost or something.
+2025-03-24 13:39:14,067 - Weakness detected: True
+Highlights: ['rode my bike', 'always end up crashing'],[HighlightRange(start=17, end=29), HighlightRange(start=57, end=79)]
+Weaknesses: ['Bad at flying']

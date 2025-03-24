@@ -1,7 +1,8 @@
 from openai import OpenAI
 import json
 from data.config import OPENAI_API_KEY, OPENAI_MODEL
-from services.prompt_service import get_combined_prompt, get_helper_prompt, get_scoring_prompt, get_gossip_prompt
+from services.prompt_service import get_combined_prompt, get_helper_prompt, get_scoring_prompt, get_gossip_prompt, \
+    get_detect_prompt
 from services.conversation_manager import conversation_manager
 
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -294,4 +295,73 @@ def generate_gossip_response(request):
     npc_message = {"role": "assistant", "content": raw_reply}
     conversation_manager.update_conversation_history(conversation_id, npc_message)
 
+    return raw_reply
+
+
+def generate_detect_response(request):
+    npc_id = request.npc_id
+    input_text = request.input_text
+
+    system_prompt = get_detect_prompt(npc_id)
+    system_message = {"role": "system", "content": system_prompt}
+    user_message = {"role": "user", "content": input_text}
+    messages = [system_message, user_message]
+
+    response = client.chat.completions.create(
+        model=OPENAI_MODEL,
+        messages=messages,
+        temperature=0.8,
+        response_format={
+            "type": "json_schema",
+            "json_schema": {
+                "name": "detect_response_schema",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "detected": {
+                            "type": "boolean",
+                            "description": "True if any weakness was detected in the message, else false."
+                        },
+                        "highlights": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "list of text fragments to highlight from the message (or empty if none)"
+                        },
+                        "weaknesses": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "Short summary in a couple of words for each detected weaknesses."
+                        },
+                        "highlight_indices": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "start": {
+                                        "type": "integer",
+                                        "description": "Start index of the highlight"
+                                    },
+                                    "end": {
+                                        "type": "integer",
+                                        "description": "End index of the highlight"
+                                    }
+                                },
+                                "required": ["start", "end"],
+                                "additionalProperties": False
+                            },
+                            "description": "List of highlight ranges with start and end index"
+                        }
+                    },
+                    "required": ["detected", "highlights", "weaknesses", "highlight_indices"],
+                    "additionalProperties": False
+                }
+            }
+        }
+    )
+
+    raw_reply = response.choices[0].message.content
     return raw_reply

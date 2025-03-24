@@ -22,9 +22,16 @@ def load_scoring_prompts() -> dict:
         return json.load(file)
 
 
+def load_detect_prompts() -> dict:
+    file_path = os.path.join(os.path.dirname(__file__), "../data/detect_prompts.json")
+    with open(file_path, "r") as file:
+        return json.load(file)
+
+
 NPC_PROMPTS = load_personality_prompts()
 HELPER_PROMPTS = load_helper_prompts()
 SCORING_PROMPTS = load_scoring_prompts()
+DETECT_PROMPTS = load_detect_prompts()
 
 
 def get_combined_prompt(npc_id: str, mode: str) -> str:
@@ -59,13 +66,11 @@ def get_scoring_prompt(npc_id: str) -> str:
     prediction_prompt = SCORING_PROMPTS.get(f"prediction_prompt", "")
     extra_requirements = SCORING_PROMPTS.get(f"extra_requirements", {})
     format_prompt = SCORING_PROMPTS.get(f"format_prompt", "")
-    weakness_prompt_1 = NPC_PROMPTS.get("npc", {}).get("weakness_01", "")
-    weakness_prompt_2 = NPC_PROMPTS.get("npc", {}).get("weakness_02", "")
-    weakness_prompt_3 = NPC_PROMPTS.get("npc", {}).get("weakness_03", "")
+    weakness_prompt = NPC_PROMPTS.get("npcs", {}).get(npc_id).get("weaknesses", "")
+
     return (f"{scoring_prompt}\n{extra_requirements}\n{prediction_prompt}\n{format_prompt}\n"
             f"Here is the scoring metrics document:\n{scoring_docs}\n\n"
-            f"Here are the weaknesses of this NPC {npc_id}:"
-            f"\n1. {weakness_prompt_1}\n2. {weakness_prompt_2}\n3. {weakness_prompt_3}")
+            f"Here are the weaknesses of this NPC {npc_id}:\n{weakness_prompt}")
 
 
 def get_gossip_prompt() -> str:
@@ -74,3 +79,18 @@ def get_gossip_prompt() -> str:
 
     return (f"You might be a bystander of Fly Gull or you might be a fan. Here are the guidelines of how you should "
             f"reply.\n If you are a bystander:\n{bystander}\nIf you are a fan:\n{fan}")
+
+
+def get_detect_prompt(npc_id: str) -> str:
+    detect_prompt = DETECT_PROMPTS.get(f"detect_rule", "")
+    format_prompt = DETECT_PROMPTS.get(f"format_rule", "")
+    weakness_prompt = NPC_PROMPTS.get("npcs", {}).get(npc_id).get("weaknesses", "")
+
+    sys_prompt = (f"{detect_prompt}\n"
+                  f"Current NPC opponent is: {npc_id}\n"
+                  f"Weaknesses of this NPC opponent: {weakness_prompt}\n"
+                  f"When analyzing a text, look for direct or indirect references to any of those weaknesses, "
+                  f"and highlight the relative text fragments.\n"
+                  f"{format_prompt}\n"
+                  f"Now analyze the following text")
+    return sys_prompt
