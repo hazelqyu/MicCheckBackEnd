@@ -16,5 +16,6 @@ class DetectRequest(BaseModel):
 class DetectResponse(BaseModel):
     detected: bool
     highlights: List[str]
-    weaknesses: List[str]
+    summaries: List[str]
     highlight_indices: List[HighlightRange]
+    indices: List[int]

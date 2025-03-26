@@ -329,34 +329,23 @@ def generate_detect_response(request):
                             },
                             "description": "list of text fragments to highlight from the message (or empty if none)"
                         },
-                        "weaknesses": {
+                        "summaries": {
                             "type": "array",
                             "items": {
                                 "type": "string"
                             },
                             "description": "Short summary in a couple of words for each detected weaknesses."
                         },
-                        "highlight_indices": {
+                        "indices": {
                             "type": "array",
                             "items": {
-                                "type": "object",
-                                "properties": {
-                                    "start": {
-                                        "type": "integer",
-                                        "description": "Start index of the highlight"
-                                    },
-                                    "end": {
-                                        "type": "integer",
-                                        "description": "End index of the highlight"
-                                    }
-                                },
-                                "required": ["start", "end"],
-                                "additionalProperties": False
+                                "type": "integer"
                             },
-                            "description": "List of highlight ranges with start and end index"
+                            "description": "list of indices (start from 0) of the weaknesses detected in the "
+                                           "weaknesses list provided(or empty if none)"
                         }
                     },
-                    "required": ["detected", "highlights", "weaknesses", "highlight_indices"],
+                    "required": ["detected", "highlights", "summaries", "indices"],
                     "additionalProperties": False
                 }
             }

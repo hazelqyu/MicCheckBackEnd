@@ -88,7 +88,7 @@ def get_detect_prompt(npc_id: str) -> str:
 
     sys_prompt = (f"{detect_prompt}\n"
                   f"Current NPC opponent is: {npc_id}\n"
-                  f"Weaknesses of this NPC opponent: {weakness_prompt}\n"
+                  f"Weaknesses list of this NPC opponent: {weakness_prompt}\n"
                   f"When analyzing a text, look for direct or indirect references to any of those weaknesses, "
                   f"and highlight the relative text fragments.\n"
                   f"{format_prompt}\n"

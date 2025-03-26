@@ -137,3 +137,378 @@ Honestly, I just rode my bike here again. Flying? Nah, I always end up crashing 
 2025-03-24 13:39:14,067 - Weakness detected: True
 Highlights: ['rode my bike', 'always end up crashing'],[HighlightRange(start=17, end=29), HighlightRange(start=57, end=79)]
 Weaknesses: ['Bad at flying']
+2025-03-24 13:48:59,612 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-24 13:49:00,223 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-24 13:49:12,100 - message:
+If anything, it’s harder for me ‘cause everyone’s always like ‘She’s only here ‘cause of Sky G.’ Like, no babe, I’m here ‘cause I got bars, a bike, and, like, impeccable taste in beats.
+2025-03-24 13:49:13,630 - Weakness detected: True
+Highlights: ['‘She’s only here ‘cause of Sky G.’', 'I got bars, a bike'],[HighlightRange(start=62, end=96), HighlightRange(start=128, end=146)]
+Weaknesses: ['nepotism privilege', 'bad at flying']
+2025-03-24 13:51:21,408 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-24 13:51:22,326 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-24 13:51:30,930 - message:
+Skylar was like, go to this subway stop and do your thing and I was like, whatever, sure. And they all loved me of course… So yeaaah, I’m like a rap legend or whatevs.
+2025-03-24 13:51:32,057 - Weakness detected: True
+Highlights: ['they all loved me'],[HighlightRange(start=94, end=111)]
+Weaknesses: ["unaware she's basic"]
+2025-03-24 14:19:34,425 - message:
+Mhm... Can I help you? Like, why are you in my face?
+2025-03-24 14:19:35,696 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-24 14:20:37,598 - message:
+Mhm... Can I help you? Like, why are you in my face?
+2025-03-24 14:20:39,130 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-24 14:22:36,969 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-24 14:22:37,812 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 13:03:40,688 - message:
+Yeah, what's up? Do you, like, want my autograph or something?
+2025-03-26 13:03:41,811 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 13:03:58,815 - message:
+Oh, you mean the subway stop? Skylar was like, go to this subway stop and do your thing and I was like, whatever, sure. And they all loved me of course… So yeaaah, I’m like a rap legend or whatevs.
+2025-03-26 13:03:59,528 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 13:04:27,999 - message:
+Umm, no. I don't, like, do the flying thing. Bikes are more my style, you know?
+2025-03-26 13:04:29,529 - Weakness detected: True
+Highlights: ['do the flying thing', 'Bikes are more my style'],[HighlightRange(start=24, end=43), HighlightRange(start=45, end=68)]
+Weaknesses: ['bad at flying', 'prefers biking']
+2025-03-26 13:05:27,084 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 13:05:28,615 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 13:05:45,208 - message:
+Nah, flying's not really my thing. I rolled in on my bike. It's way more my style.
+2025-03-26 13:05:46,740 - Weakness detected: True
+Highlights: ["flying's not really my thing", 'rolled in on my bike'],[HighlightRange(start=5, end=33), HighlightRange(start=37, end=57)]
+Weaknesses: ['bad at flying']
+2025-03-26 13:06:13,879 - message:
+Ugh, not this again. Can you stop talking about fast food, like, god, stooop.
+2025-03-26 13:06:15,106 - Weakness detected: True
+Highlights: ['talking about fast food'],[HighlightRange(start=34, end=57)]
+Weaknesses: ['misses french fries']
+2025-03-26 13:06:33,238 - message:
+Listen sweetie, I’d talk to you more but I literally gave up on hot dogs since I was a baby... And fries are, like, sooo last year for me.
+2025-03-26 13:06:34,667 - Weakness detected: True
+Highlights: ['gave up on hot dogs', 'fries are, like, sooo last year for me'],[HighlightRange(start=53, end=72), HighlightRange(start=99, end=137)]
+Weaknesses: ['misses french fries']
+2025-03-26 13:10:27,951 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 13:10:31,727 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 13:10:44,227 - message:
+Honestly? Your constant mentions of Sky G is giving, jealousy. Like, I worked hard to make my own thing, and you just wanna act like I, like, woke up famous? No, babe. I woke up talented.
+2025-03-26 13:10:46,167 - Weakness detected: True
+Highlights: ['constant mentions of Sky G'],[HighlightRange(start=15, end=41)]
+Weaknesses: ['Defensive about nepotism']
+2025-03-26 13:15:01,877 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 13:15:02,686 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 13:15:09,550 - message:
+Nah, I rode my bike. Flying's just not my thing, y’know?
+2025-03-26 13:15:10,570 - Weakness detected: True
+Highlights: ['rode my bike', "Flying's just not my thing"],[HighlightRange(start=7, end=19), HighlightRange(start=21, end=47)]
+Weaknesses: ['bad at flying']
+2025-03-26 13:16:16,014 - message:
+Oh hey there! Did you see Fly Gull's latest performance? She's killing it, right?
+2025-03-26 13:16:17,032 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 13:16:47,548 - message:
+Well, I did hear she's Sky G's sister, but Fly Gull totally proved herself with her talent. She's got the skills, no doubt!
+2025-03-26 13:16:48,673 - Weakness detected: True
+Highlights: ["Sky G's sister"],[HighlightRange(start=23, end=37)]
+Weaknesses: ['nepotism privilege']
+2025-03-26 14:07:54,580 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 14:07:55,488 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:08:04,706 - message:
+Nah babe, I rode my bike. Flying's overrated anyway.
+2025-03-26 14:08:06,218 - Weakness detected: True
+Highlights: ['rode my bike', "Flying's overrated"],[HighlightRange(start=12, end=24), HighlightRange(start=26, end=44)]
+Weaknesses: ['bad at flying']
+2025-03-26 14:23:05,033 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 14:23:05,839 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:23:31,339 - message:
+Oh… you forreal think you can beat me? Like, in a rap battle? Suuure…
+2025-03-26 14:23:32,566 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:23:56,018 - message:
+Sweetcheeks, you really think you’re ready? I think you should hang around, vibe with us a lil… maybe you’ll change your mind.
+2025-03-26 14:23:56,835 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:24:03,442 - message:
+What’s got you so worked up? Just chillax and, like, enjoy the vibes babe.
+2025-03-26 14:24:04,579 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:24:10,770 - message:
+Oh, hey there! Did you hear the latest about Fly Gull?
+2025-03-26 14:24:11,786 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:24:30,937 - message:
+Well, I heard she's collaborating on a new track with some big names, but no one's sure who yet. Any guesses?
+2025-03-26 14:24:31,755 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:24:46,093 - message:
+Well, besides Fly Gull, there's always chatter about Sky G, but you know how it is... Fly Gull's in a league of her own. Some say she might team up with some international stars... might be a surprise!
+2025-03-26 14:24:47,012 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:24:58,893 - message:
+Rumor has it she might be looking at some artists from South Korea or the UK. Those scenes are blowing up right now! Can you imagine the collab?
+2025-03-26 14:24:59,709 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:25:50,605 - message:
+Oh, really? That's cool! Maybe you can get inspired by Fly Gull's style... she has that global vibe, you know? Maybe your raps will catch her attention one day!
+2025-03-26 14:25:52,258 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:27:17,958 - message:
+Oh, daring to battle Fly Gull, huh? That's gutsy! Maybe you could rap about your travels and how they've shaped your style. But remember, Fly Gull's all about those chill vibes and clever internal rhymes. Better bring your A-game!
+2025-03-26 14:27:18,975 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:30:38,706 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 14:30:39,470 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:30:53,955 - message:
+Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like… Google is free, babe.
+2025-03-26 14:30:54,728 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:31:14,391 - message:
+Heh, okay then. But like, I'm still here doing my thing, so what do you wanna know?
+2025-03-26 14:31:15,104 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:31:33,957 - message:
+You like my style? Well, it’s, like, obviously on another level.
+2025-03-26 14:31:34,719 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:31:42,243 - message:
+Mhm kay, but like, I’m still rockin’ it and everyone knows I’m the flyest gull on the scene.
+2025-03-26 14:31:43,161 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:32:02,625 - message:
+Sweetcheeks, it's called confidence. When you got bars and style like mine, it’s just facts.
+2025-03-26 14:32:03,540 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:32:23,000 - message:
+Honestly? I’m not a fan of those fake J's. But hey, you do you.
+2025-03-26 14:32:23,816 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:32:45,512 - message:
+C'mon, babe. I know my kicks. Those don't have the right vibe, y'know?
+2025-03-26 14:32:46,445 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:33:26,598 - message:
+Ha, funny. Nah, babe, I'm just all about that Cali vibe. It's all about the energy, y’know?
+2025-03-26 14:33:27,815 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:33:45,538 - message:
+Totally, babe. Just like the sun shining down on Cali—endless energy.
+2025-03-26 14:33:46,391 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+2025-03-26 14:34:30,083 - message:
+Yeah yeah, Sky’s real dope… why are we talking about her again?
+2025-03-26 14:34:31,306 - Weakness detected: True
+Highlights: ['Sky’s real dope'],[HighlightRange(start=11, end=26)]
+Weaknesses: ['Defensive about nepotism privilege']
+2025-03-26 14:34:45,436 - message:
+Alright, alright, I hear ya. Sky G is my older sis, and she's kind of a big deal in the game too. But, like, I'm my own thing, y'know?
+2025-03-26 14:34:46,869 - Weakness detected: True
+Highlights: ['Sky G is my older sis'],[HighlightRange(start=29, end=50)]
+Weaknesses: ['nepotism with sister Sky G']
+2025-03-26 14:34:55,271 - message:
+Well, listen up then. Sky G might be a legend, but I'm Fly Gull. I’ve got my own style, my own fire. I’m here ‘cause I got bars, a bike, and, like, impeccable taste in beats.
+2025-03-26 14:34:58,513 - Weakness detected: True
+Highlights: ['Sky G might be a legend', 'a bike'],[HighlightRange(start=22, end=45), HighlightRange(start=129, end=135)]
+Weaknesses: ['nepotism privilege', 'bad at flying']
+2025-03-26 16:10:52,360 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 16:10:53,269 - ERROR: 'DetectResponse' object has no attribute 'weaknesses'
+2025-03-26 16:12:15,055 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 16:12:16,010 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:12:35,059 - message:
+Hah, good one. Nah, I rode my bike here. Flying isn't really my thing, you know?
+2025-03-26 16:12:36,258 - ERROR: Failed to process AI response
+2025-03-26 16:17:13,519 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:17:14,509 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:17:29,569 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:17:30,688 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:22:48,958 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:22:49,976 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:23:03,393 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:23:04,620 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:25:12,832 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:25:17,639 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:25:28,598 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:25:30,336 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:27:21,752 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:27:22,772 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:27:34,345 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:27:36,596 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:29:05,409 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:29:06,196 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:29:21,155 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:29:22,170 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:29:59,886 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:30:00,673 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:30:10,818 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:30:11,838 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:31:14,995 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:31:15,838 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:31:25,055 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:31:26,062 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:33:34,086 - message:
+Mhm... can I help you? Like, why are you in my face?
+2025-03-26 16:33:34,897 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:33:45,452 - message:
+Ugh, flying? Nah, I rode my bike. It's, like, way cooler—and you know, safer for these feathers.
+2025-03-26 16:33:46,469 - Weakness detected: True
+Highlights: ['rode my bike'],[HighlightRange(start=20, end=32)]
+Weaknesses: ['bad at flying']
+Indices: [0]
+2025-03-26 16:34:14,020 - message:
+Honestly? Your constant mentions of Sky G is giving, jealousy. Like, I worked hard to make my own thing, and you just wanna act like I, like, woke up famous? No, babe. I woke up talented.
+2025-03-26 16:34:15,038 - Weakness detected: True
+Highlights: ['constant mentions of Sky G'],[HighlightRange(start=15, end=41)]
+Weaknesses: ['defensive about nepotism']
+Indices: [1]
+2025-03-26 16:34:32,245 - message:
+Did you just say french fries? Whatever, I, like, literally don’t care…
+2025-03-26 16:34:33,164 - Weakness detected: True
+Highlights: ['french fries'],[HighlightRange(start=17, end=29)]
+Weaknesses: ['misses fast food']
+Indices: [3]
+2025-03-26 16:42:08,246 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 16:42:09,155 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:42:16,348 - message:
+Did you just say french fries? Whatever, I, like, literally don’t care…
+2025-03-26 16:42:17,961 - Weakness detected: True
+Highlights: ['french fries'],[HighlightRange(start=17, end=29)]
+Weaknesses: ['misses eating fast food']
+Indices: [2]
+2025-03-26 16:43:59,559 - message:
+Oh hey! Are you here for Fly Gull too?
+2025-03-26 16:44:00,466 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:44:11,631 - message:
+Absolutely, huge fan! Fly Gull's music is amazing, don't you think?
+2025-03-26 16:44:12,446 - Weakness detected: False
+Highlights: [],[]
+Weaknesses: []
+Indices: []
+2025-03-26 16:44:48,086 - message:
+Haters will say she had an advantage, but, like, talent speaks for itself.
+2025-03-26 16:44:54,330 - Weakness detected: True
+Highlights: ['advantage'],[HighlightRange(start=27, end=36)]
+Weaknesses: ['defensive about nepotism']
+Indices: [1]

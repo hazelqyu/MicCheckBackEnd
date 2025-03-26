@@ -22,7 +22,7 @@ async def weakness_detect(request: DetectRequest):
         detect_logger.info(f"message:\n{request.input_text}")
 
         raw_reply = generate_detect_response(request)
-        detected, highlights, weaknesses = parse_ai_response(raw_reply)
+        detected, highlights, summaries, indices = parse_ai_response(raw_reply)
 
         highlight_ranges = []
         for phrase in highlights:
@@ -36,12 +36,15 @@ async def weakness_detect(request: DetectRequest):
         response = DetectResponse(
             detected=detected,
             highlights=highlights,
-            weaknesses=weaknesses,
-            highlight_indices=highlight_ranges
+            summaries=summaries,
+            highlight_indices=highlight_ranges,
+            indices=indices
         )
 
         detect_logger.info(
-            f"Weakness detected: {response.detected}\nHighlights: {response.highlights},{response.highlight_indices}\nWeaknesses: {response.weaknesses}")
+            f"Weakness detected: {response.detected}\nHighlights: {response.highlights},{response.highlight_indices}\n"
+            f"Weaknesses: {response.summaries}\n"
+            f"Indices: {response.indices}")
 
         return response
 
@@ -57,15 +60,16 @@ def parse_ai_response(raw_reply: str):
         raise ValueError("AI response is not valid JSON") from e
 
     try:
-        weakness_detected = parsed_reply.get("detected", True)
+        detected = parsed_reply.get("detected", True)
         highlights = parsed_reply.get("highlights", [])
-        weaknesses = parsed_reply.get("weaknesses", [])
+        summaries = parsed_reply.get("summaries", [])
+        indices = parsed_reply.get("indices", [])
 
-        if weakness_detected:
-            if not highlights or not weaknesses:
+        if detected:
+            if not highlights or not summaries or not indices:
                 raise ValueError("Invalid response structure or missing required fields in the AI detect response.")
 
-        return weakness_detected, highlights, weaknesses
+        return detected, highlights, summaries, indices
 
     except Exception as e:
         print(f"[FastAPI] Error parsing detect AI response: {e}")
