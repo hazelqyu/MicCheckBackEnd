@@ -512,3 +512,58 @@ Haters will say she had an advantage, but, like, talent speaks for itself.
 Highlights: ['advantage'],[HighlightRange(start=27, end=36)]
 Weaknesses: ['defensive about nepotism']
 Indices: [1]
+2025-03-26 21:37:20,132 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 21:37:20,783 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-03-26 21:37:32,305 - message:
+Oh, sweetcheeks, you're hilarious. I, like, rode my bike here, duh. Flying's not really my jam, y'know?
+2025-03-26 21:37:34,862 - Detected: True
+Highlights: ['rode my bike', "Flying's not really my jam"]
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-03-26 21:37:53,308 - message:
+Did you just say french fries? Whatever, I, like, literally don’t care…
+2025-03-26 21:37:54,452 - Detected: True
+Highlights: ['french fries']
+Summaries: ['misses eating fries']
+Categories: ['weaknesses']Indices: [2]
+2025-03-26 21:38:07,532 - message:
+Hey! What's up? Are you here for Fly Gull too?
+2025-03-26 21:38:08,651 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-03-26 21:38:26,771 - message:
+Absolutely, it's the West Coast Best Coast! The vibes there are just like Fly Gull's music, you know? Have you been?
+2025-03-26 21:38:27,801 - Detected: True
+Highlights: ['West Coast Best Coast']
+Summaries: ['praise for California']
+Categories: ['likes']Indices: [0]
+2025-03-26 21:38:52,270 - message:
+The beaches, the sunshine, the laid-back vibe... it all reminds me of Fly Gull's chill energy. Plus, her ocean-inspired lyrics always take me there. What about you?
+2025-03-26 21:38:53,195 - Phrase 'the beaches' not found in input text
+2025-03-26 21:38:53,195 - Detected: True
+Highlights: ['the beaches', 'ocean-inspired']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-03-26 21:39:23,205 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-03-26 21:39:23,916 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-03-26 21:39:36,925 - message:
+Can you stop talking about fast food, like, god, stooop.
+2025-03-26 21:39:37,741 - Detected: True
+Highlights: ['fast food']
+Summaries: ['celebrity diet']
+Categories: ['weaknesses']Indices: [2]
+2025-03-26 21:39:53,250 - message:
+Honestly? Your constant mentions of Sky G is giving, jealousy. Like, I worked hard to make my own thing, and you just wanna act like I, like, woke up famous? No, babe. I woke up talented.
+2025-03-26 21:39:54,098 - Detected: True
+Highlights: ['mentions of Sky G']
+Summaries: ['defensive about nepotism']
+Categories: ['weaknesses']Indices: [1]

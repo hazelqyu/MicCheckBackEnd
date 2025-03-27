@@ -320,32 +320,44 @@ def generate_detect_response(request):
                     "properties": {
                         "detected": {
                             "type": "boolean",
-                            "description": "True if any weakness was detected in the message, else false."
+                            "description": "True if any weakness, like, or dislike is detected in the message; false "
+                                           "otherwise."
                         },
                         "highlights": {
                             "type": "array",
                             "items": {
                                 "type": "string"
                             },
-                            "description": "list of text fragments to highlight from the message (or empty if none)"
+                            "description": "A list of short text fragments to highlight in the message (or an empty "
+                                           "list if none)."
                         },
                         "summaries": {
                             "type": "array",
                             "items": {
                                 "type": "string"
                             },
-                            "description": "Short summary in a couple of words for each detected weaknesses."
+                            "description": "A list of short summaries (a couple of words) of each detected weakness, "
+                                           "like, or dislike (or an empty list if none)."
+                        },
+                        "categories": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "A list if the categories of each detected piece of information. Each "
+                                           "category must be either 'weaknesses', 'likes', or 'dislikes' (or an empty "
+                                           "list if none)."
                         },
                         "indices": {
                             "type": "array",
                             "items": {
                                 "type": "integer"
                             },
-                            "description": "list of indices (start from 0) of the weaknesses detected in the "
-                                           "weaknesses list provided(or empty if none)"
+                            "description": "A list of the indices (starting at 0) of each detected piece of "
+                                           "information in its corresponding category list (or an empty list if none)."
                         }
                     },
-                    "required": ["detected", "highlights", "summaries", "indices"],
+                    "required": ["detected", "highlights", "summaries", "categories", "indices"],
                     "additionalProperties": False
                 }
             }

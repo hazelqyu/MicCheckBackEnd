@@ -82,15 +82,24 @@ def get_gossip_prompt() -> str:
 
 
 def get_detect_prompt(npc_id: str) -> str:
+    general_prompt = DETECT_PROMPTS.get(f"general_rule", "")
     detect_prompt = DETECT_PROMPTS.get(f"detect_rule", "")
+    classify_prompt = DETECT_PROMPTS.get(f"classify_rule", "")
     format_prompt = DETECT_PROMPTS.get(f"format_rule", "")
-    weakness_prompt = NPC_PROMPTS.get("npcs", {}).get(npc_id).get("weaknesses", "")
+    weakness_list = NPC_PROMPTS.get("npcs", {}).get(npc_id).get("weaknesses", "")
+    likes_list = NPC_PROMPTS.get("npcs", {}).get(npc_id).get("audience_likes", "")
+    dislikes_list = NPC_PROMPTS.get("npcs", {}).get(npc_id).get("audience_dislikes", "")
 
-    sys_prompt = (f"{detect_prompt}\n"
+    sys_prompt = (f"{general_prompt}\n"
                   f"Current NPC opponent is: {npc_id}\n"
-                  f"Weaknesses list of this NPC opponent: {weakness_prompt}\n"
+                  f"Weaknesses list of this NPC opponent: {weakness_list}\n"
+                  f"Likes list of the Audience: {likes_list}\n"
+                  f"Dislikes list of the Audience: {dislikes_list}\n"
+                  f"Now you have 3 lists.\n"
+                  f"Step1:{detect_prompt}\n"
+                  f"Step2:{classify_prompt}\n"
                   f"When analyzing a text, look for direct or indirect references to any of those weaknesses, "
-                  f"and highlight the relative text fragments.\n"
+                  f"likes and dislikes.\n,"
                   f"{format_prompt}\n"
                   f"Now analyze the following text")
     return sys_prompt
