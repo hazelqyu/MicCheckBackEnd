@@ -567,3 +567,93 @@ Honestly? Your constant mentions of Sky G is giving, jealousy. Like, I worked ha
 Highlights: ['mentions of Sky G']
 Summaries: ['defensive about nepotism']
 Categories: ['weaknesses']Indices: [1]
+2025-04-02 16:19:14,300 - message:
+Hey there! Waiting for the train to see Fly Gull too?
+2025-04-02 16:19:14,301 - ERROR: 'DetectRequest' object has no attribute 'chat_target_id'
+2025-04-02 16:22:27,818 - message:
+Oh, hey! For sure, I'm so excited for Fly Gull's performance. You a big fan too?
+2025-04-02 16:22:27,819 - ERROR: 'DetectRequest' object has no attribute 'chat_target_id'
+2025-04-02 16:27:19,815 - message:
+Peace and love. Cursing won’t fly around here.
+2025-04-02 16:27:19,816 - ERROR: 'DetectRequest' object has no attribute 'chat_target_id'
+2025-04-02 16:29:07,434 - message:
+If you had a wider vocabulary, you wouldn’t have to curse.
+2025-04-02 16:29:07,435 - ERROR: 'DetectRequest' object has no attribute 'chat_target_id'
+2025-04-02 16:31:50,408 - message:
+Isn’t it amazing being here in Beach City Subway where it all started for Fly Gull?
+2025-04-02 16:31:52,255 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:32:10,685 - message:
+Oh, really? This place has such a cool vibe, just like Fly Gull's music.
+2025-04-02 16:32:11,319 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:35:17,854 - message:
+Hey, did you hear about Fly Gull's latest concert? I heard it was amazing!
+2025-04-02 16:35:19,615 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:35:30,201 - message:
+Oh, come on! I heard she had the whole crowd dancing and singing along. She's got some serious stage presence, you know?
+2025-04-02 16:35:31,592 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:35:45,443 - message:
+Yeah, I get that. Her sister, Sky G, definitely gave her a boost in the beginning. But honestly, Fly Gull's made a name for herself now. Her talent shines through!
+2025-04-02 16:35:46,430 - Detected: True
+Highlights: ['Sky G, definitely gave her a boost']
+Summaries: ['nepotism privilege']
+Categories: ['weaknesses']Indices: [1]
+2025-04-02 16:36:02,423 - message:
+Well, I do think she's pretty impressive! She's got some catchy tunes, and her performances are always entertaining. Plus, she's got a unique style that's hard to ignore. What about you?
+2025-04-02 16:36:03,138 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:36:37,115 - message:
+Well, I think she's pretty talented! She's got some catchy tunes, and her performances are always entertaining. Plus, she's got a unique style that's hard to ignore. What about you?
+2025-04-02 16:36:37,812 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:42:41,326 - message:
+Well, I think she's pretty impressive! She's got some catchy tunes, and her performances are always entertaining. Plus, she's got a unique style that's hard to ignore. What about you?
+2025-04-02 16:42:42,117 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:42:46,120 - message:
+Oh, did your keyboard get away from you there for a second? It happens! Anyway, what else have you heard about Fly Gull recently? She's always up to something interesting.
+2025-04-02 16:42:46,863 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:42:52,876 - message:
+It's all good! This place always gives me those chill Fly Gull vibes, you know?
+2025-04-02 16:42:53,770 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:49:07,051 - message:
+Yo, what's good? You lookin' to vibe or what?
+2025-04-02 16:49:07,835 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:57:14,020 - message:
+I see those kicks, but they ain't the real deal, you know? What's up, though?
+2025-04-02 16:57:14,717 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-02 16:57:37,029 - message:
+Yeah, she's my sis. But I'm doing my own thing, you feel me? I'm not just riding her waves.
+2025-04-02 16:57:37,726 - Detected: True
+Highlights: ["she's my sis"]
+Summaries: ['nepotism privilege']
+Categories: ['weaknesses']Indices: [1]

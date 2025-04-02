@@ -28,10 +28,10 @@ async def chat_interact(request: ChatRequest):
         raw_reply = generate_chat_response(request)
         plain_reply = raw_reply.replace("\n", " ").strip()
         response = ChatResponse(
-            npc_response=plain_reply
+            chat_response=plain_reply
         )
 
-        chat_logger.info(f"\nAI: {response.npc_response}\n")
+        chat_logger.info(f"\nAI: {response.chat_response}\n")
 
         return response
     except Exception as e:

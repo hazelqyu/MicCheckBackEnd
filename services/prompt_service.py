@@ -73,12 +73,13 @@ def get_scoring_prompt(npc_id: str) -> str:
             f"Here are the weaknesses of this NPC {npc_id}:\n{weakness_prompt}")
 
 
-def get_gossip_prompt() -> str:
-    bystander = extract_google_doc_content("bystander")
-    fan = extract_google_doc_content("fan")
+def get_audience_chat_prompt(audience_type) -> str:
+    profile = extract_google_doc_content(audience_type)
 
-    return (f"You might be a bystander of Fly Gull or you might be a fan. Here are the guidelines of how you should "
-            f"reply.\n If you are a bystander:\n{bystander}\nIf you are a fan:\n{fan}")
+    sys_prompt = (f"You are a {audience_type} of Fly Full. Here are the guidelines of how you "
+                  f"should reply:\n {profile}")
+
+    return sys_prompt
 
 
 def get_detect_prompt(npc_id: str) -> str:
