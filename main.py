@@ -1,8 +1,23 @@
 # main.py
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Rap Battle Game Backend API")
 
+# Allow requests from anywhere (or just from your Itch.io game URL)
+origins = [
+    "https://hazelqyu.itch.io",  # Your game
+    "http://localhost:8000",     # If you test locally
+]
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # <- Allow all origins (any domain)
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 async def root():
