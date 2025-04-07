@@ -657,3 +657,63 @@ Yeah, she's my sis. But I'm doing my own thing, you feel me? I'm not just riding
 Highlights: ["she's my sis"]
 Summaries: ['nepotism privilege']
 Categories: ['weaknesses']Indices: [1]
+2025-04-04 13:57:56,927 - message:
+Yo, what's good? You a fan or just breezin' through?
+2025-04-04 13:57:57,672 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-04 13:58:00,479 - message:
+Mhm, cool story. Anything else you wanna say?
+2025-04-04 13:58:01,567 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-04 14:23:25,150 - message:
+Oh, hey! What's up? Something about Fly Gull you want to share or ask? Spill the tea!
+2025-04-04 14:23:25,636 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-04 14:23:55,757 - message:
+Not much, just chatting about Fly Gull. Have you heard any juicy news about her lately?
+2025-04-04 14:23:56,393 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-04 14:24:19,230 - message:
+Oh, you know how it is! People can be so careless at times. But I bet Fly Gull wouldn't touch those fries... she's got a reputation to maintain, right? Plus, she's all about keeping things clean and eco-friendly.
+2025-04-04 14:24:20,010 - Detected: True
+Highlights: ["wouldn't touch those fries"]
+Summaries: ['misses eating fastfood']
+Categories: ['weaknesses']Indices: [2]
+2025-04-04 14:25:15,725 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-04 14:25:16,225 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-04 14:25:35,498 - message:
+Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like… Google is free, babe.
+2025-04-04 14:25:36,431 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-04 14:26:01,847 - message:
+Umm, security? Someone call about a stray in fake J's? They're in my turf and don't even know who I am.
+2025-04-04 14:26:02,505 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-07 14:10:03,585 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-07 14:10:04,284 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-07 14:10:22,432 - message:
+Ugh, just vibes as usual. Rhyme Riders stay killin' it, you know?
+2025-04-07 14:10:22,914 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []

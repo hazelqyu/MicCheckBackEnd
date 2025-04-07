@@ -50,38 +50,6 @@ def generate_gossip_response(request):
     return
 
 
-# def generate_gossip_response(request):
-#     audience_type = request.audience_type
-#     conversation_id = request.conversation_id
-#     user_input = request.user_input
-#     new_session = request.new_session
-#
-#     conversation_history = conversation_manager.get_conversation_history(conversation_id)
-#
-#     if new_session or not conversation_history:
-#         system_prompt = get_gossip_prompt(audience_type)
-#         system_message = {"role": "system", "content": system_prompt}
-#         conversation_manager.update_conversation_history(conversation_id, system_message)
-#
-#     if user_input:
-#         user_message = {"role": "user", "content": user_input}
-#         conversation_manager.update_conversation_history(conversation_id, user_message)
-#
-#     messages = conversation_manager.get_conversation_history(conversation_id)
-#
-#     response = client.chat.completions.create(
-#         model=OPENAI_MODEL,
-#         messages=messages,
-#         temperature=0.8
-#     )
-#
-#     raw_reply = response.choices[0].message.content
-#     npc_message = {"role": "assistant", "content": raw_reply}
-#     conversation_manager.update_conversation_history(conversation_id, npc_message)
-#
-#     return raw_reply
-
-
 def generate_fill_in_blank_response(request):
     npc_id = request.npc_id
     conversation_id = request.conversation_id
@@ -253,48 +221,36 @@ def generate_score_response(request):
                     "type": "object",
                     "properties": {
                         "clarity_score": {
-                            "description": "An integer",
+                            "description": "An integer between 0 and 10",
                             "type": "integer"
-                        },
-                        "explanation_1": {
-                            "description": "A string",
-                            "type": "string"
                         },
                         "story_consistency_score": {
-                            "description": "An integer",
+                            "description": "An integer between 0 and 10",
                             "type": "integer"
                         },
-                        "explanation_2": {
-                            "description": "A string",
-                            "type": "string"
+                        "cleverness_score": {
+                            "description": "An integer between 0 and 10",
+                            "type": "integer"
                         },
                         "npc_weakness_score": {
-                            "description": "An integer",
+                            "description": "An integer between 0 and 30",
                             "type": "integer"
                         },
-                        "explanation_3": {
-                            "description": "A string",
-                            "type": "string"
+                        "rhyming_ability_score": {
+                            "description": "An integer between 0 and 30",
+                            "type": "integer"
                         },
                         "audience_preference_score": {
-                            "description": "An integer",
+                            "description": "An integer between 0 and 30",
                             "type": "integer"
                         },
-                        "explanation_4": {
-                            "description": "A string",
-                            "type": "string"
-                        },
-                        "prediction": {
-                            "description": "An integer",
-                            "type": "integer"
-                        },
-                        "prediction_reason": {
+                        "comment": {
                             "description": "A string",
                             "type": "string"
                         },
                     },
-                    "required": ["clarity_score", "story_consistency_score", "npc_weakness_score",
-                                 "audience_preference_score", "prediction"],
+                    "required": ["clarity_score", "story_consistency_score", "cleverness_score", "npc_weakness_score",
+                                 "rhyming_ability_score", "audience_preference_score", "comment"],
                     "additionalProperties": False
                 }
             }

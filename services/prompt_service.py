@@ -61,15 +61,16 @@ def get_helper_prompt() -> str:
 
 
 def get_scoring_prompt(npc_id: str) -> str:
-    scoring_docs = extract_google_doc_content("score")
+    player_scoring_docs = extract_google_doc_content("player_score")
+    npc_scoring_docs = extract_google_doc_content("npc_score")
     scoring_prompt = SCORING_PROMPTS.get(f"scoring_prompt", "")
-    prediction_prompt = SCORING_PROMPTS.get(f"prediction_prompt", "")
     extra_requirements = SCORING_PROMPTS.get(f"extra_requirements", {})
     format_prompt = SCORING_PROMPTS.get(f"format_prompt", "")
     weakness_prompt = NPC_PROMPTS.get("npcs", {}).get(npc_id).get("weaknesses", "")
 
-    return (f"{scoring_prompt}\n{extra_requirements}\n{prediction_prompt}\n{format_prompt}\n"
-            f"Here is the scoring metrics document:\n{scoring_docs}\n\n"
+    return (f"{scoring_prompt}\n{extra_requirements}\n{format_prompt}\n"
+            f"Here is the scoring metrics document when scoring the player:\n{player_scoring_docs}\n\n"
+            f"Here is the scoring metrics document when scoring the npc:\n{npc_scoring_docs}\n\n"
             f"Here are the weaknesses of this NPC {npc_id}:\n{weakness_prompt}")
 
 

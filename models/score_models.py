@@ -11,9 +11,11 @@ class ScoreRequest(BaseModel):
 
 
 class ScoreResponse(BaseModel):
-    scoree:str
+    scoree: str
     clarity_score: int
     story_consistency_score: int
+    cleverness_score: int
     npc_weakness_score: int
+    rhyming_ability_score: int
     audience_preference_score: int
-    prediction: int
+    comment: str

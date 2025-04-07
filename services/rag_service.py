@@ -35,7 +35,8 @@ docs_service = build('docs', 'v1', credentials=credentials)
 # Fetch a specific document from Google Docs
 CHAT_PROFILE_ID = '1uxGIwY9Xh87cmCfTJczUlAZ_P9A--36suw5UFLklyfs'
 BATTLE_PROFILE_ID = '1GJAwcQMv_PDoB3CEU8LaTOI6xgG7fcc8UKEbnDDuduw'
-SCORING_DOC_ID = '19myTnYWqKvp9VH9WOhW2PIyUoOgpCZuiYx1sOdDNjYk'
+PLAYER_SCORING_DOC_ID = '1WniCNo5TrszT6fgWpwgPVAFD17-RGwXCQM2Fq160FlY'
+NPC_SCORING_DOC_ID = '1G8vf639dMVQT7g1nS0gsgNMaYhAMtTkLLbImq5OtNeM'
 BYSTANDER_DOC_ID = '1-ApIS9gz6iWDzlbl5ywJnxcOHHc5LZbIe8aS1qGohzY'
 FAN_DOC_ID = '1pVPPssCcUyHlX8a4u99IlsL4YoGnkcXDN2D5SyVupBk'
 
@@ -45,8 +46,10 @@ def extract_google_doc_content(target_doc: str):
         doc_id = BATTLE_PROFILE_ID
     elif target_doc == "chat":
         doc_id = CHAT_PROFILE_ID
-    elif target_doc == "score":
-        doc_id = SCORING_DOC_ID
+    elif target_doc == "player_score":
+        doc_id = PLAYER_SCORING_DOC_ID
+    elif target_doc == "npc_score":
+        doc_id = NPC_SCORING_DOC_ID
     elif target_doc == "bystander":
         doc_id = BYSTANDER_DOC_ID
     elif target_doc == "fan":
