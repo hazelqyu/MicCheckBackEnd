@@ -78,7 +78,7 @@ def get_audience_chat_prompt(audience_type) -> str:
     profile = extract_google_doc_content(audience_type)
 
     sys_prompt = (f"You are a {audience_type} of Fly Full. Here are the guidelines of how you "
-                  f"should reply:\n {profile}")
+                  f"should reply:\n {profile} \n\nPlease reply in no more than 40 words.")
 
     return sys_prompt
 

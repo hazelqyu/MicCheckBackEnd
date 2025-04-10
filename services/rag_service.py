@@ -39,6 +39,7 @@ PLAYER_SCORING_DOC_ID = '1WniCNo5TrszT6fgWpwgPVAFD17-RGwXCQM2Fq160FlY'
 NPC_SCORING_DOC_ID = '1G8vf639dMVQT7g1nS0gsgNMaYhAMtTkLLbImq5OtNeM'
 BYSTANDER_DOC_ID = '1-ApIS9gz6iWDzlbl5ywJnxcOHHc5LZbIe8aS1qGohzY'
 FAN_DOC_ID = '1pVPPssCcUyHlX8a4u99IlsL4YoGnkcXDN2D5SyVupBk'
+HATER_DOC_ID = '1ZKfqY_2Hxuvxtj61L-Yhzczq4Fq-HMrsCNONxH6H03o'
 
 
 def extract_google_doc_content(target_doc: str):
@@ -54,6 +55,8 @@ def extract_google_doc_content(target_doc: str):
         doc_id = BYSTANDER_DOC_ID
     elif target_doc == "fan":
         doc_id = FAN_DOC_ID
+    elif target_doc == "hater":
+        doc_id = HATER_DOC_ID
     # Retrieve the document content
     doc = docs_service.documents().get(documentId=doc_id).execute()
     content = ''

@@ -771,3 +771,63 @@ Yeah, totally! Fly Gull definitely keeps things interesting, whether it's about 
 Highlights: []
 Summaries: []
 Categories: []Indices: []
+2025-04-10 17:53:12,929 - message:
+Hey! Are you here for Fly Gull too?
+2025-04-10 17:53:13,814 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 17:53:24,083 - message:
+Just hanging out in Beach City Subway supporting Fly Gull. You too?
+2025-04-10 17:53:24,556 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 17:53:49,076 - message:
+Nah, she made it through her talent. She’s a true Rhyme Rider, no shortcuts.
+2025-04-10 17:53:50,268 - Detected: True
+Highlights: ['made it through her talent']
+Summaries: ['defensive about nepotism privilege']
+Categories: ['weaknesses']Indices: [1]
+2025-04-10 17:54:22,051 - message:
+You should check out her story. She’s all about hard work and dedication.
+2025-04-10 17:54:22,626 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 17:54:48,534 - message:
+Hey there! What's up?
+2025-04-10 17:54:49,355 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 17:55:02,012 - message:
+Hey there! Did you hear the latest about Fly Gull?
+2025-04-10 17:55:02,484 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 17:55:16,512 - message:
+I heard she's dropping a new single next month! Some say it's going to be her best work yet. What do you think?
+2025-04-10 17:55:17,234 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 17:55:45,505 - message:
+That's fair! Sky G has been in the game longer. But some people say Fly Gull is starting to find her own voice. Maybe she'll surprise you with this new release!
+2025-04-10 17:55:46,492 - Detected: True
+Highlights: ['Sky G has been in the game longer']
+Summaries: ['defensive about nepotism from sister Sky G']
+Categories: ['weaknesses']Indices: [1]
+2025-04-10 18:08:02,522 - message:
+Oh, hey there! What's up? Have you heard the latest about Fly Gull?
+2025-04-10 18:08:03,139 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 18:15:01,475 - message:
+Oh, it's about Fly Gull, isn't it? Her music's overrated, riding her sister Sky G's coattails. Plus, her anti-fast food stance is just annoying. That whole climate activist thing? Just a distraction from her subpar flying skills.
+2025-04-10 18:15:02,567 - Detected: True
+Highlights: ["riding her sister Sky G's coattails", 'anti-fast food stance', 'subpar flying skills']
+Summaries: ['nepotism privilege', 'celebrity diet', 'bad at flying']
+Categories: ['weaknesses', 'weaknesses', 'weaknesses']Indices: [1, 2, 0]
