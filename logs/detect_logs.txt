@@ -831,3 +831,33 @@ Oh, it's about Fly Gull, isn't it? Her music's overrated, riding her sister Sky 
 Highlights: ["riding her sister Sky G's coattails", 'anti-fast food stance', 'subpar flying skills']
 Summaries: ['nepotism privilege', 'celebrity diet', 'bad at flying']
 Categories: ['weaknesses', 'weaknesses', 'weaknesses']Indices: [1, 2, 0]
+2025-04-10 19:52:17,085 - message:
+Oh, hello there! Did you hear the latest about Fly Gull?
+2025-04-10 19:52:17,765 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 19:52:29,568 - message:
+Oh, what is it now? Are you going to defend Fly Gull and her so-called "music"? I can't stand how she rode on Sky G's coattails. Plus, her disdain for fries? Ridiculous! Sky G is way more genuine.
+2025-04-10 19:52:30,880 - Detected: True
+Highlights: ["rode on Sky G's coattails", 'disdain for fries']
+Summaries: ['nepotism privilege', 'misses eating fries']
+Categories: ['weaknesses', 'weaknesses']Indices: [1, 2]
+2025-04-10 19:53:54,870 - message:
+Hey there! Something on your mind about Fly Gull?
+2025-04-10 19:53:55,432 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 19:54:27,734 - message:
+Hi there! What's the buzz about Fly Gull today?
+2025-04-10 19:54:28,226 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-10 19:54:39,954 - message:
+Oh, just the usual buzz about Fly Gull. People are talking about her new project and how she's making waves with her sister's influence. What's your take?
+2025-04-10 19:54:40,748 - Detected: True
+Highlights: ["her sister's influence"]
+Summaries: ['nepotism privilege from sister']
+Categories: ['weaknesses']Indices: [1]
