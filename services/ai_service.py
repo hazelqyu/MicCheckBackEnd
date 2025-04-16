@@ -50,7 +50,7 @@ def generate_gossip_response(request):
     return
 
 
-def generate_fill_in_blank_response(request):
+def generate_battle_response(request):
     npc_id = request.npc_id
     conversation_id = request.conversation_id
     user_input = request.user_input
@@ -95,21 +95,9 @@ def generate_fill_in_blank_response(request):
                         "npc_full_bar_4": {
                             "description": "A string",
                             "type": "string"
-                        },
-                        "npc_incomplete_bar": {
-                            "description": "A string",
-                            "type": "string"
-                        },
-                        "options": {
-                            "description": "A list of options related to the task",
-                            "type": "array",
-                            "items": {
-                                "type": "string"
-                            }
                         }
                     },
-                    "required": ["npc_full_bar_1", "npc_full_bar_2", "npc_full_bar_3", "npc_full_bar_4",
-                                 "npc_incomplete_bar", "options"],
+                    "required": ["npc_full_bar_1", "npc_full_bar_2", "npc_full_bar_3", "npc_full_bar_4"],
                     "additionalProperties": False
                 }
             }
@@ -125,6 +113,7 @@ def generate_fill_in_blank_response(request):
 
 
 def generate_help_response(request):
+    writing_mode = request.writing_mode
     npc_id = request.npc_id
     conversation_id = request.conversation_id
     user_input = request.user_input
@@ -132,10 +121,9 @@ def generate_help_response(request):
 
     conversation_history = conversation_manager.get_conversation_history(conversation_id)
 
-    if new_session or not conversation_history:
-        system_prompt = get_helper_prompt()
-        system_message = {"role": "system", "content": system_prompt}
-        conversation_manager.update_conversation_history(conversation_id, system_message)
+    system_prompt = get_helper_prompt(writing_mode)
+    system_message = {"role": "system", "content": system_prompt}
+    conversation_manager.update_conversation_history(conversation_id, system_message)
 
     if user_input:
         user_message = {"role": "user", "content": user_input}
@@ -170,15 +158,8 @@ def generate_help_response(request):
                             "description": "A string",
                             "type": "string"
                         },
-                        "options": {
-                            "description": "A list of options related to the task",
-                            "type": "array",
-                            "items": {
-                                "type": "string"
-                            }
-                        }
                     },
-                    "required": ["incomplete_bars", "options"],
+                    "required": ["incomplete_bars"],
                     "additionalProperties": False
                 }
             }

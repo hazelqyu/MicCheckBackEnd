@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from models.battle_models import FillInBlankRequest, FillInBlankResponse
-from services.ai_service import generate_fill_in_blank_response
+from models.battle_models import BattleRequest, BattleResponse
+from services.ai_service import generate_battle_response
 import json
 import logging
 import sys
@@ -24,20 +24,18 @@ if not battle_logger.handlers:
     battle_logger.addHandler(stream_handler)
 
 
-@router.post("/battle/fill_in_blank", response_model=FillInBlankResponse)
-async def fill_in_blank_interact(request: FillInBlankRequest):
+@router.post("/battle", response_model=BattleResponse)
+async def battle_interact(request: BattleRequest):
     try:
         battle_logger.info(f"\n{request.conversation_id}\n User: \n{request.user_input}")
-        raw_reply = generate_fill_in_blank_response(request)
+        raw_reply = generate_battle_response(request)
         print(f"[FastAPI] AI Response:\n{raw_reply}")
 
-        full_bar, incomplete_bar, word_options = parse_ai_response(raw_reply)
+        full_bar= parse_ai_response(raw_reply)
 
-        response = FillInBlankResponse(
+        response = BattleResponse(
             round=request.round,
             npc_full_bar=full_bar,
-            npc_incomplete_bar=incomplete_bar,
-            options=word_options
         )
         battle_logger.info(f"\nAI:\n{response.npc_full_bar}")
         return response
@@ -59,14 +57,12 @@ def parse_ai_response(raw_reply: str):
         full_bar_4 = parsed_reply.get("npc_full_bar_4", "").strip()
 
         full_bar = f"{full_bar_1}\n{full_bar_2}\n{full_bar_3}\n{full_bar_4}"
-        incomplete_bar = parsed_reply.get("npc_incomplete_bar", "").strip()
-        word_options = parsed_reply.get("options", [])
 
         # Validate the response structure
-        if not full_bar or not incomplete_bar or not isinstance(word_options, list) or len(word_options) != 3:
+        if not full_bar:
             raise ValueError("Invalid response structure or missing required fields.")
 
-        return full_bar, incomplete_bar, word_options
+        return full_bar
     except Exception as e:
         print(f"[FastAPI] Error parsing AI response: {e}")
         raise ValueError("Failed to process AI response")

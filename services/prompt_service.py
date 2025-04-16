@@ -54,9 +54,10 @@ def get_combined_prompt(npc_id: str, mode: str) -> str:
     return f"{global_prompt}\n{mode_prompt}\n{npc_personality}\n{profile}"
 
 
-def get_helper_prompt() -> str:
+def get_helper_prompt(writing_mode: int) -> str:
     helper_prompt = HELPER_PROMPTS.get(f"helper_rule", "")
-    format_prompt = HELPER_PROMPTS.get(f"format_rule", "")
+    format_prompt = HELPER_PROMPTS.get(f"format_rule_{writing_mode}", "")
+    print(f"format_rule: {format_prompt}")
     return f"{helper_prompt}\n{format_prompt}"
 
 

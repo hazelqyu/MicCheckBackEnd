@@ -10,14 +10,13 @@ router = APIRouter()
 async def get_help(request: HelpRequest):
     try:
         raw_reply = generate_help_response(request)
-        incomplete_bar_1, incomplete_bar_2, incomplete_bar_3, incomplete_bar_4, word_options = parse_ai_response(
+        incomplete_bar_1, incomplete_bar_2, incomplete_bar_3, incomplete_bar_4 = parse_ai_response(
             raw_reply)
         return HelpResponse(
             incomplete_bar_1=incomplete_bar_1,
             incomplete_bar_2=incomplete_bar_2,
             incomplete_bar_3=incomplete_bar_3,
             incomplete_bar_4=incomplete_bar_4,
-            options=word_options
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -34,15 +33,13 @@ def parse_ai_response(raw_reply: str):
         incomplete_bar_2 = parsed_reply.get("incomplete_bar_2", "").strip()
         incomplete_bar_3 = parsed_reply.get("incomplete_bar_3", "").strip()
         incomplete_bar_4 = parsed_reply.get("incomplete_bar_4", "").strip()
-        word_options = parsed_reply.get("options", [])
 
         # Validate the response structure
-        if not incomplete_bar_1 or not incomplete_bar_2 or not incomplete_bar_3 or not incomplete_bar_4 or not isinstance(
-                word_options, list) or len(word_options) != 8:
+        if incomplete_bar_1 is None or incomplete_bar_2 is None or incomplete_bar_3 is None or incomplete_bar_4 is None:
             raise ValueError("Invalid response structure or missing required fields.")
 
         incomplete_bars = f"{incomplete_bar_1}\n{incomplete_bar_2}\n{incomplete_bar_3}\n{incomplete_bar_4}"
-        return incomplete_bar_1, incomplete_bar_2, incomplete_bar_3, incomplete_bar_4, word_options
+        return incomplete_bar_1, incomplete_bar_2, incomplete_bar_3, incomplete_bar_4
     except Exception as e:
         print(f"[FastAPI] Error parsing AI response: {e}")
         raise ValueError("Failed to process AI response")
