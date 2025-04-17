@@ -861,3 +861,285 @@ Oh, just the usual buzz about Fly Gull. People are talking about her new project
 Highlights: ["her sister's influence"]
 Summaries: ['nepotism privilege from sister']
 Categories: ['weaknesses']Indices: [1]
+2025-04-16 21:35:34,806 - message:
+Hey there! What's up? You talking about Fly Gull or just passing by?
+2025-04-16 21:35:36,096 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:35:53,737 - message:
+Oh, the fries? They're just gossip, you know, rumors about Fly Gull. Some say if she ever had fries, her career would tank, but others call it just silly superstition. People love to talk!
+2025-04-16 21:35:55,097 - Detected: True
+Highlights: ['fries']
+Summaries: ['misses eating fries']
+Categories: ['weaknesses']Indices: [2]
+2025-04-16 21:36:24,765 - message:
+Hey, what’s up? You looking for some Fly Gull gossip or just chilling at the station?
+2025-04-16 21:36:26,372 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:36:39,197 - message:
+Nice, like a gentle wave on the shore. Enjoy the vibe! If you hear any Fly Gull buzz, feel free to share.
+2025-04-16 21:36:40,197 - Detected: True
+Highlights: ['gentle wave on the shore']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:36:55,689 - message:
+Nice, like a gentle wave on the shore. Enjoy the vibe! If you hear any Fly Gull buzz, feel free to share.
+2025-04-16 21:36:56,750 - Detected: True
+Highlights: ['gentle wave on the shore']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:37:07,348 - message:
+Whoa, no need for stormy seas! Just here for some chill chat. Hope the vibe turns smoother for you. 🌊
+2025-04-16 21:37:08,362 - Detected: True
+Highlights: ['stormy seas']
+Summaries: ['ocean and the beach metaphors']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:37:30,401 - message:
+Alright, keep riding those chill waves! If you want to chat about Fly Gull or anything beachy, I'm here. 🌴
+2025-04-16 21:37:31,493 - Detected: True
+Highlights: ['riding those chill waves', 'beachy']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:37:47,684 - message:
+Ugh, let me guess, a Fly Gull fan? Here we go again...
+2025-04-16 21:37:48,586 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:38:08,789 - message:
+Ouch, getting heated, are we? I'm guessing Fly Gull stans don't take kindly to differing opinions.
+2025-04-16 21:38:10,088 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:38:32,662 - message:
+Cool, as long as we're moving past the Fly Gull chatter.
+2025-04-16 21:38:33,401 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:39:24,771 - message:
+Hey there! Are you here for the Fly Gull show too? Isn't she amazing?
+2025-04-16 21:39:25,658 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:39:49,234 - message:
+Hold up, Fly Gull is a queen, not a king! She's got the best rhymes around. You must be new. You'll love her positive vibes!
+2025-04-16 21:39:50,141 - Detected: True
+Highlights: ['positive vibes']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-16 21:40:09,515 - message:
+If you're not into uplifting vibes, you might be in the wrong place. Fly Gull's all about positivity and no cursing.
+2025-04-16 21:40:10,763 - Detected: True
+Highlights: ['uplifting vibes', 'no cursing']
+Summaries: ['positive outlook on life', 'cursing']
+Categories: ['likes', 'dislikes']Indices: [2, 1]
+2025-04-16 21:40:37,081 - message:
+If you had a wider vocabulary you wouldn’t have to curse. Fly Gull's all about spreading love with clean rhymes.
+2025-04-16 21:40:37,961 - Detected: True
+Highlights: ['curse']
+Summaries: ['audience get annoyed when people curse']
+Categories: ['dislikes']Indices: [1]
+2025-04-16 21:40:59,067 - message:
+Peace and love. Cursing won’t fly around here. Fly Gull's all about good vibes and positive energy.
+2025-04-16 21:41:00,481 - Detected: True
+Highlights: ['Cursing won’t fly', 'good vibes and positive energy']
+Summaries: ['no cursing', 'positive outlook on life']
+Categories: ['dislikes', 'likes']Indices: [1, 2]
+2025-04-16 21:41:31,043 - message:
+Hey there! What's on your mind? Chatting about the latest Fly Gull buzz or just soaking in the Beach City vibes?
+2025-04-16 21:41:31,995 - Detected: True
+Highlights: ['Beach City vibes']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:42:00,314 - message:
+The beach is like a soothing balm, washing away all stress. Just remember, words can create waves, so let's keep it chill and respectful. 🌊
+2025-04-16 21:42:01,744 - Detected: True
+Highlights: ['The beach is like a soothing balm']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:42:22,534 - message:
+The kind that wash over you, bringing peace and calm. Like when Fly Gull's music hits just right, creating those perfect vibes. 🌊🎶
+2025-04-16 21:42:23,833 - Detected: True
+Highlights: ['wash over you']
+Summaries: ['ocean and beach metaphors']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:42:30,953 - message:
+The kind that wash over you, bringing peace and calm. Like when Fly Gull's music hits just right, creating those perfect vibes. 🌊🎶
+2025-04-16 21:42:32,434 - Detected: True
+Highlights: ['wash over you', 'perfect vibes', '🌊']
+Summaries: ['metaphors about the ocean', 'positive outlook on life']
+Categories: ['likes', 'likes']Indices: [1, 2]
+2025-04-16 21:43:01,069 - message:
+Absolutely, nothing like the beach to clear your mind. It's like Fly Gull's music, always refreshing and never dull. 🌴🎵
+2025-04-16 21:43:02,643 - Detected: True
+Highlights: ['nothing like the beach']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:43:53,161 - message:
+Hey there! Are you here to see Fly Gull too? She’s incredible, right?
+2025-04-16 21:43:54,252 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:44:03,308 - message:
+It's all about that Rhyme Rider vibe! Fly Gull rides to symbolize freedom and positivity, spreading good vibes wherever she goes.
+2025-04-16 21:44:04,288 - Detected: True
+Highlights: ['rides to symbolize freedom and positivity']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-16 21:44:34,327 - message:
+Well, it's all about her unique style and energy. Whether you believe it or not, Fly Gull just exudes positivity and freedom.
+2025-04-16 21:44:35,316 - Detected: True
+Highlights: ['exudes positivity']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-16 21:44:45,017 - message:
+Let me guess, another Fly Gull enthusiast? What a surprise...
+2025-04-16 21:44:46,066 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:45:09,450 - message:
+Maybe she's trying to save the planet with all that pedaling, or just can't handle turbulence. Who knows?
+2025-04-16 21:45:10,542 - Detected: True
+Highlights: ['all that pedaling', "can't handle turbulence"]
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-04-16 21:45:47,449 - message:
+Well, Fly Gull does have her moments, but hey, at least you're honest.
+2025-04-16 21:45:49,042 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:46:04,025 - message:
+Please don't tell me you're about to bring up Fly Gull.
+2025-04-16 21:46:04,812 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:46:23,048 - message:
+Oh, you mean her way of saying she's too good for fast food? Classic.
+2025-04-16 21:46:24,168 - Detected: True
+Highlights: ['too good for fast food']
+Summaries: ['misses eating fast food']
+Categories: ['weaknesses']Indices: [2]
+2025-04-16 21:46:37,956 - message:
+Yep, like how she rides on Sky G's coattails.
+2025-04-16 21:46:39,219 - Detected: True
+Highlights: ["rides on Sky G's coattails"]
+Summaries: ['defensive about nepotism']
+Categories: ['weaknesses']Indices: [1]
+2025-04-16 21:47:12,517 - message:
+Only the real talent in the family. You know, the one who didn't need a bike to catch air.
+2025-04-16 21:47:14,655 - Detected: True
+Highlights: ['real talent in the family', 'need a bike to catch air']
+Summaries: ['nepotism privilege', 'bad at flying']
+Categories: ['weaknesses', 'weaknesses']Indices: [1, 0]
+2025-04-16 21:47:41,614 - message:
+Way better. Sky G didn't need a climate activist mask to cover shaky skills.
+2025-04-16 21:47:42,506 - Detected: True
+Highlights: ['Sky G']
+Summaries: ['nepotism privilege from Sky G.']
+Categories: ['weaknesses']Indices: [1]
+2025-04-16 21:49:06,898 - message:
+Hey! What's up? Catching some Fly Gull gossip or just soaking in the beach vibes? 🌊
+2025-04-16 21:49:07,802 - Detected: True
+Highlights: ['beach vibes']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:49:16,550 - message:
+Sky G's got that starry presence, like the moon lighting up the ocean at night. Her talent is undeniable, and she paved the way for Fly Gull. Quite the powerhouse! 🌙✨
+2025-04-16 21:49:18,109 - Detected: True
+Highlights: ['moon lighting up the ocean', 'paved the way for Fly Gull']
+Summaries: ['metaphors about the ocean and the beach', 'nepotism privilege']
+Categories: ['likes', 'weaknesses']Indices: [1, 1]
+2025-04-16 21:49:37,823 - message:
+Cool! If you hear any more buzz or want to chat about something else, I'm here. Enjoy the beach vibes! 🌴
+2025-04-16 21:49:38,932 - Detected: True
+Highlights: ['beach vibes']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-16 21:50:01,167 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-16 21:50:02,342 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:50:22,726 - message:
+Did you just say french fries? Whatever, I, like, literally don’t care.
+2025-04-16 21:50:23,887 - Detected: True
+Highlights: ['french fries']
+Summaries: ['misses eating fries']
+Categories: ['weaknesses']Indices: [2]
+2025-04-16 21:51:13,590 - message:
+Umm, security? Someone call about a stray in fake J's? They're in my turf and don't even know who I am.
+2025-04-16 21:51:14,576 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:51:36,881 - message:
+Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like… Google is free, babe.
+2025-04-16 21:51:37,919 - Detected: True
+Highlights: ['little ‘Who are you?’ thing']
+Summaries: ["opponents' ego"]
+Categories: ['likes']Indices: [0]
+2025-04-16 21:52:14,333 - message:
+Yeah, yeah, Sky’s real dope… why are we talking about her again?
+2025-04-16 21:52:15,501 - Detected: True
+Highlights: ['Sky']
+Summaries: ['defensive about the nepotism privilege']
+Categories: ['weaknesses']Indices: [1]
+2025-04-16 21:52:58,040 - message:
+Honestly? Your constant mentions of Sky G is giving, jealousy. Like, I worked hard to make my own thing, and you just wanna act like I, like, woke up famous? No, babe. I woke up talented.
+2025-04-16 21:52:59,400 - Detected: True
+Highlights: ['constant mentions of Sky G', 'wanna act like I, like, woke up famous?']
+Summaries: ['defensive about nepotism privilege', "disses about opponents' ego"]
+Categories: ['weaknesses', 'likes']Indices: [1, 0]
+2025-04-16 21:53:34,083 - message:
+No, babe. I woke up talented. I'm here 'cause I got bars, a bike, and, like, impeccable taste in beats.
+2025-04-16 21:53:34,965 - Detected: True
+Highlights: ['a bike']
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-04-16 21:54:03,402 - message:
+Because, like, I keep flying into hard surfaces. Bikes are just easier, you know?
+2025-04-16 21:54:04,662 - Detected: True
+Highlights: ['flying into hard surfaces', 'Bikes are just easier']
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-04-16 21:54:34,510 - message:
+Look, I’m a Rhyme Rider, not a flight expert. My talent's in my bars, not in the sky.
+2025-04-16 21:54:35,337 - Detected: True
+Highlights: ['not a flight expert', 'not in the sky']
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-04-16 21:55:39,432 - message:
+I looove being a Rhyme Rider… You want to be one too? Oh sweetcheeks, that’s so cuuute. Go home.
+2025-04-16 21:55:40,303 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:56:39,559 - message:
+Keep it down! And I can’t believe you would accuse me of something like that! God.
+2025-04-16 21:56:40,465 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-16 21:57:23,100 - message:
+Stop, the Sunbeams will hear you… they don’t need to know about how I got here. I’m here and they love me, that’s what matters.
+2025-04-16 21:57:24,382 - Detected: True
+Highlights: ['how I got here']
+Summaries: ['defensive about nepotism']
+Categories: ['weaknesses']Indices: [1]
+2025-04-16 21:59:12,392 - message:
+If anything, it’s harder for me ‘cause everyone’s always like ‘She’s only here ‘cause of Sky G.’ Like, no babe, I’m here ‘cause I got bars, a bike, and, like, impeccable taste in beats.
+2025-04-16 21:59:13,747 - Detected: True
+Highlights: ['only here ‘cause of Sky G.', 'I got bars, a bike']
+Summaries: ['nepotism privilege', 'bad at flying']
+Categories: ['weaknesses', 'weaknesses']Indices: [1, 0]
