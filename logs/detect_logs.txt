@@ -1143,3 +1143,94 @@ If anything, it’s harder for me ‘cause everyone’s always like ‘She’s o
 Highlights: ['only here ‘cause of Sky G.', 'I got bars, a bike']
 Summaries: ['nepotism privilege', 'bad at flying']
 Categories: ['weaknesses', 'weaknesses']Indices: [1, 0]
+2025-04-21 15:10:16,686 - message:
+Hey there! Are you here for Fly Gull too? She's the best, right? Those positive vibes in her rhymes are unbeatable!
+2025-04-21 15:10:17,861 - Detected: True
+Highlights: ['positive vibes']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-21 15:22:09,272 - message:
+Oh great, another Fly Gull fan. What is it this time? Trying to convert me? Good luck with that.
+2025-04-21 15:22:10,140 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 15:22:44,838 - message:
+Her ego's bigger than her rhymes. Target her confidence, and maybe throw in a line about her sister's shadow. That'll rattle her. Good luck.
+2025-04-21 15:22:46,472 - Detected: True
+Highlights: ["ego's bigger", "her sister's shadow"]
+Summaries: ["disses about opponents' ego", 'nepotism privilege from sister']
+Categories: ['likes', 'weaknesses']Indices: [0, 1]
+2025-04-21 15:23:00,804 - message:
+Sky G—now that's real talent. She’s been rocking flows before Fly Gull could even rhyme "cat" with "hat."
+2025-04-21 15:23:02,564 - Phrase 'Fly Gull could even rhyme "cat" with "hat"' not found in input text
+2025-04-21 15:23:02,564 - Detected: True
+Highlights: ['Sky G', 'Fly Gull could even rhyme "cat" with "hat"']
+Summaries: ['nepotism privilege from sister', 'nepotism privilege from sister']
+Categories: ['weaknesses', 'weaknesses']Indices: [1, 1]
+2025-04-21 15:23:56,492 - message:
+Finally! Good luck out there.
+2025-04-21 15:23:57,285 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 15:24:12,225 - message:
+Oh, hey! Did you hear Fly Gull released a new eco-conscious track? I adore when she raps about ocean waves. What brings you here today?
+2025-04-21 15:24:14,183 - Detected: True
+Highlights: ['ocean waves']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-21 15:24:33,624 - message:
+Oh yeah, her sister Sky G definitely helped her start. But Fly Gull's talent really made her shine. It's all about the waves she rides with her rhymes!
+2025-04-21 15:24:35,571 - Detected: True
+Highlights: ['her sister Sky G', 'waves she rides']
+Summaries: ['nepotism privilege', 'metaphors about the ocean']
+Categories: ['weaknesses', 'likes']Indices: [1, 1]
+2025-04-21 15:25:14,105 - message:
+Hey! Are you here for Fly Gull's performance? Her positivity is just so infectious. Can't wait to vibe with everyone!
+2025-04-21 15:25:15,136 - Detected: True
+Highlights: ['positivity']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-21 15:25:27,792 - message:
+Hey there! Feeling great, especially with Fly Gull in town. Ready for some positive vibes and good times! How about you?
+2025-04-21 15:25:29,038 - Detected: True
+Highlights: ['positive vibes']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-21 15:25:50,103 - message:
+Absolutely! Fly Gull's positive vibes and chill rhymes keep us all uplifted. It's all about living, loving, and laughing here!
+2025-04-21 15:25:51,510 - Detected: True
+Highlights: ['uplifted', 'positive vibes']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-21 18:39:21,020 - message:
+Hey there! Did you hear Fly Gull refused a big ad deal? Said the logo didn’t vibe with the ocean! Iconic, right?
+2025-04-21 18:39:22,226 - Detected: True
+Highlights: ['vibe with the ocean']
+Summaries: ['metaphors about ocean and beach']
+Categories: ['likes']Indices: [1]
+2025-04-21 18:39:40,784 - message:
+Hey there! Ready to vibe with Fly Gull? Isn’t her positivity just incredible?
+2025-04-21 18:39:41,786 - Detected: True
+Highlights: ['her positivity']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-21 18:39:58,090 - message:
+Oh no, not another Fly Gull enthusiast. Please, spare me the lecture on her 'amazing' skills.
+2025-04-21 18:39:59,418 - Detected: True
+Highlights: ["'amazing' skills"]
+Summaries: ['defensive about nepotism']
+Categories: ['weaknesses']Indices: [1]
+2025-04-21 18:40:18,411 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-21 18:40:19,266 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 18:40:27,697 - message:
+Chillin', vibe checkin' at Beach City, babe. What's it to you?
+2025-04-21 18:40:28,554 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []

@@ -45,8 +45,6 @@ HATER_DOC_ID = '1ZKfqY_2Hxuvxtj61L-Yhzczq4Fq-HMrsCNONxH6H03o'
 def extract_google_doc_content(target_doc: str):
     if target_doc == "battle":
         doc_id = BATTLE_PROFILE_ID
-    elif target_doc == "chat":
-        doc_id = CHAT_PROFILE_ID
     elif target_doc == "player_score":
         doc_id = PLAYER_SCORING_DOC_ID
     elif target_doc == "npc_score":
@@ -57,6 +55,8 @@ def extract_google_doc_content(target_doc: str):
         doc_id = FAN_DOC_ID
     elif target_doc == "hater":
         doc_id = HATER_DOC_ID
+    elif target_doc == "rapper":
+        doc_id = CHAT_PROFILE_ID
     # Retrieve the document content
     doc = docs_service.documents().get(documentId=doc_id).execute()
     content = ''

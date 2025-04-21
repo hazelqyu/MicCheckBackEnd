@@ -1,9 +1,8 @@
 from openai import OpenAI
 import json
 from data.config import OPENAI_API_KEY, OPENAI_MODEL
-from services.prompt_service import get_combined_prompt, get_helper_prompt, get_scoring_prompt, \
-    get_audience_chat_prompt, \
-    get_detect_prompt
+from services.prompt_service import get_chat_prompt, get_helper_prompt, get_scoring_prompt, \
+    get_detect_prompt, get_battle_prompt
 from services.conversation_manager import conversation_manager
 
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -19,10 +18,7 @@ def generate_chat_response(request):
     conversation_history = conversation_manager.get_conversation_history(conversation_id)
 
     if new_session or not conversation_history:
-        if target_type == "rapper":
-            system_prompt = get_combined_prompt(npc_id, "chat")
-        else:
-            system_prompt = get_audience_chat_prompt(target_type)
+        system_prompt = get_chat_prompt(npc_id, target_type)
         system_message = {"role": "system", "content": system_prompt}
         conversation_manager.update_conversation_history(conversation_id, system_message)
 
@@ -45,11 +41,6 @@ def generate_chat_response(request):
     return raw_reply
 
 
-def generate_gossip_response(request):
-    print("Wrong function to call")
-    return
-
-
 def generate_battle_response(request):
     npc_id = request.npc_id
     conversation_id = request.conversation_id
@@ -59,7 +50,7 @@ def generate_battle_response(request):
     conversation_history = conversation_manager.get_conversation_history(conversation_id)
 
     if new_game or not conversation_history:
-        system_prompt = get_combined_prompt(npc_id, "battle")
+        system_prompt = get_battle_prompt(npc_id)
         system_message = {"role": "system", "content": system_prompt}
         conversation_manager.update_conversation_history(conversation_id, system_message)
 
@@ -115,22 +106,14 @@ def generate_battle_response(request):
 def generate_help_response(request):
     writing_mode = request.writing_mode
     npc_id = request.npc_id
-    conversation_id = request.conversation_id
     user_input = request.user_input
-    new_session = request.new_session
 
-    conversation_history = conversation_manager.get_conversation_history(conversation_id)
-
-    system_prompt = get_helper_prompt(writing_mode)
+    system_prompt = get_helper_prompt(npc_id, writing_mode)
     system_message = {"role": "system", "content": system_prompt}
-    conversation_manager.update_conversation_history(conversation_id, system_message)
 
-    if user_input:
-        user_message = {"role": "user", "content": user_input}
-        conversation_manager.update_conversation_history(conversation_id, user_message)
+    user_message = {"role": "user", "content": user_input}
 
-    messages = conversation_manager.get_conversation_history(conversation_id)
-
+    messages = [system_message, user_message]
     response = client.chat.completions.create(
         model=OPENAI_MODEL,
         messages=messages,
@@ -167,9 +150,6 @@ def generate_help_response(request):
     )
 
     raw_reply = response.choices[0].message.content
-    npc_message = {"role": "assistant", "content": raw_reply}
-    conversation_manager.update_conversation_history(conversation_id, npc_message)
-
     return raw_reply
 
 
@@ -185,9 +165,10 @@ def generate_score_response(request):
 
     history = conversation_manager.get_conversation_history(conversation_id)
     round_prompt = (f"This is a rap battle between the NPC: {npc_id} and the player: {player_id}! "
-                    f"You are going to score the {scoree}'s rap in this round, "
-                    f"which is as follows:\n{rap_lyrics}. "
-                    f"\n\nAnd Here is the scoring history in this battle for your reference:\n{history}")
+                    f"Your task is to score the **CURRENT ROUND ONLY**, which was performed by: {scoree}.\n"
+                    f"---\n{scoree.upper()}'S RAP THIS ROUND:\n{rap_lyrics}\n---\n"
+                    f"ONLY score this round. Prior rounds are provided for context below, but DO NOT score them.\n---\n"
+                    f"Prior rounds:\n{history}")
     user_message = {"role": "user", "content": round_prompt}
     messages = [system_message, user_message]
     response = client.chat.completions.create(
@@ -240,8 +221,8 @@ def generate_score_response(request):
     raw_reply = response.choices[0].message.content
     update_rap = {"role": "user", "content": f"{scoree}:{rap_lyrics}"}
     conversation_manager.update_conversation_history(conversation_id, update_rap)
-    score_message = {"role": "assistant", "content": raw_reply}
-    conversation_manager.update_conversation_history(conversation_id, score_message)
+    # score_message = {"role": "assistant", "content": raw_reply}
+    # conversation_manager.update_conversation_history(conversation_id, score_message)
 
     return raw_reply
 
