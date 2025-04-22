@@ -1234,3 +1234,81 @@ Chillin', vibe checkin' at Beach City, babe. What's it to you?
 Highlights: []
 Summaries: []
 Categories: []Indices: []
+2025-04-21 19:27:05,388 - message:
+Hey there! Did you hear Fly Gull turned down a brand deal because it didn’t respect the sea? So iconic!
+2025-04-21 19:27:06,509 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 19:39:02,314 - message:
+Hey! Did you know Fly Gull once refused a yacht party? Said the waves were too rough. Typical Fly Gull drama!
+2025-04-21 19:39:03,325 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 19:39:51,581 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-21 19:39:52,389 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 19:47:18,125 - message:
+Oh hey! Did you know Fly Gull once surfed a ten-foot wave? She's got guts, but some say it was just for the cameras!
+2025-04-21 19:47:19,417 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 19:47:39,814 - message:
+Hey there! You a Fly Gull fan too?
+2025-04-21 19:47:41,125 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 19:47:55,305 - message:
+Awesome! Isn’t her vibe just unbeatable? Positive energy all the way!
+2025-04-21 19:47:56,677 - Detected: True
+Highlights: ['Positive energy']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-21 19:48:05,527 - message:
+Oh, hi! Did you hear Fly Gull's new track? She said the ocean whispers secrets. Love it! But her sister's the real star, some say.
+2025-04-21 19:48:07,673 - Detected: True
+Highlights: ['the ocean whispers secrets', "her sister's the real star"]
+Summaries: ['metaphors about the ocean', 'nepotism privilege from sister']
+Categories: ['likes', 'weaknesses']Indices: [1, 1]
+2025-04-21 19:48:25,399 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-21 19:48:26,494 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-21 19:48:45,509 - message:
+Bikes are, like, my thing. Way easier than flying into walls, y’know? Plus, it’s a vibe, babe.
+2025-04-21 19:48:46,628 - Detected: True
+Highlights: ['Bikes are, like, my thing', 'flying into walls']
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-04-22 15:55:30,965 - message:
+Oh hello there! Did you hear Fly Gull's last rap? A true oceanic masterpiece.
+2025-04-22 15:55:32,958 - Detected: True
+Highlights: ['oceanic']
+Summaries: ['metaphors about the ocean']
+Categories: ['likes']Indices: [1]
+2025-04-22 15:56:45,389 - message:
+Hey there! Did you hear Fly Gull skipped a big show? Said she needed time to surf and reflect. Such a beach vibe, huh?
+2025-04-22 15:56:46,787 - Detected: True
+Highlights: ['beach vibe']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-22 15:58:39,589 - message:
+Hey! Did you hear about Fly Gull's new track? It's deep like the ocean, but some say it's not salty enough. What do you think?
+2025-04-22 15:58:40,632 - Detected: True
+Highlights: ['deep like the ocean']
+Summaries: ['metaphors about the ocean']
+Categories: ['likes']Indices: [1]
+2025-04-22 16:04:20,657 - message:
+Hey there! You a Fly Gull fan too? Ready for some positive vibes?
+2025-04-22 16:04:21,949 - Detected: True
+Highlights: ['positive vibes']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
