@@ -1312,3 +1312,441 @@ Hey there! You a Fly Gull fan too? Ready for some positive vibes?
 Highlights: ['positive vibes']
 Summaries: ['positive outlook on life']
 Categories: ['likes']Indices: [2]
+2025-04-27 15:51:10,217 - message:
+Oh hi there! Did you hear Fly Gull skipped Surf Fest? Rumor has it she's planning something big.
+2025-04-27 15:51:11,125 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-27 15:51:37,734 - message:
+Oh hey! Did you hear Fly Gull turned down a big deal? Said it didn’t represent the sea right! Iconic, huh?
+2025-04-27 15:51:38,530 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-27 15:51:52,336 - message:
+Oh hello! Did you know Fly Gull didn't attend a big event? Rumor says she's planning something even bigger. Can't wait to see!
+2025-04-27 15:51:53,342 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-27 15:52:05,512 - message:
+Oh, I just love when rappers use beach and ocean metaphors! It’s like... so cool, you know? Money talk's too boring though.
+2025-04-27 15:52:06,830 - Detected: True
+Highlights: ['beach and ocean metaphors', "Money talk's too boring"]
+Summaries: ['metaphors about the ocean and the beach', 'people talk about money']
+Categories: ['likes', 'dislikes']Indices: [1, 2]
+2025-04-27 15:57:17,596 - message:
+Oh hey! Did you hear Fly Gull might drop a surprise track soon? The rumors are flying faster than seagulls at sunset!
+2025-04-27 15:57:18,394 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-27 15:57:46,898 - message:
+I just adore those ocean and beach metaphors, you know? So fresh! But when rappers brag about money... yawn. It's just so overdone.
+2025-04-27 15:57:48,156 - Detected: True
+Highlights: ['ocean and beach metaphors', 'brag about money']
+Summaries: ['metaphors about ocean and beach', 'talk about money']
+Categories: ['likes', 'dislikes']Indices: [1, 2]
+2025-04-28 12:39:09,563 - message:
+Hey there! Have you heard the latest about Fly Gull? She's causing waves again!
+2025-04-28 12:39:11,144 - Detected: True
+Highlights: ['causing waves']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-28 12:39:40,789 - message:
+Uh-oh, are you okay? Sounds like you got sand in your keyboard!
+2025-04-28 12:39:43,833 - Detected: True
+Highlights: ['sand in your keyboard']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-28 12:40:04,038 - message:
+Ugh, are you another Fly Gull stan? Stop bothering me... I told y’all—I don’t care about her ‘vibes’ or her mediocre rhymes.
+2025-04-28 12:40:05,649 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-28 12:40:19,200 - message:
+Hey there! You a Fly Gull fan too?
+2025-04-28 12:40:20,699 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-28 12:40:34,591 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-28 12:40:35,471 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-28 12:40:40,171 - message:
+Awww, you’re doing that little ‘Who are you?’ thing. That’s precious. But like… Google is free, babe.
+2025-04-28 12:40:42,078 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-28 12:48:33,376 - message:
+Hey there! Got any juicy gossip? Fly Gull's always making a splash!
+2025-04-28 12:48:34,870 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-28 12:49:09,713 - message:
+Oh, absolutely! Love it when rappers use sea metaphors. The beach is, like, the best!
+2025-04-28 12:49:11,121 - Detected: True
+Highlights: ['sea metaphors', 'The beach']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-28 12:49:46,175 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-28 12:49:47,280 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-28 12:50:04,095 - message:
+Did you just say french fries? Whatever, I, like, literally don’t care…
+2025-04-28 12:50:05,254 - Detected: True
+Highlights: ['french fries']
+Summaries: ['misses eating fries']
+Categories: ['weaknesses']Indices: [2]
+2025-04-28 13:39:23,007 - message:
+Hey there! Did you hear Fly Gull once turned down a TV ad cuz it didn't respect ocean vibes? Quite the wave, huh?
+2025-04-28 13:39:24,503 - Detected: True
+Highlights: ['ocean vibes']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-28 13:43:36,324 - message:
+Oh, hey! Did you know Fly Gull only wears clothes inspired by sea creatures? It's totally a vibe. I'm all about ocean metaphors in raps too!
+2025-04-28 13:43:37,539 - Detected: True
+Highlights: ['ocean metaphors']
+Summaries: ['metaphors about the ocean']
+Categories: ['likes']Indices: [1]
+2025-04-28 13:44:21,279 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-28 13:44:22,798 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-28 13:44:39,317 - message:
+Did you just say french fries? Whatever, I, like, literally don’t care…
+2025-04-28 13:44:40,412 - Detected: True
+Highlights: ['french fries']
+Summaries: ['misses eating fries']
+Categories: ['weaknesses']Indices: [2]
+2025-04-30 11:31:57,638 - message:
+Ugh, are you another Fly Gull stan? Stop bothering me... I told y’all—I don’t care about her ‘vibes’ or her mediocre rhymes.
+2025-04-30 11:31:58,610 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 11:32:17,084 - message:
+Oh, good luck with that. Just aim for her ego, not her looks. It’s her Achilles' heel.
+2025-04-30 11:32:18,275 - Detected: True
+Highlights: ['aim for her ego']
+Summaries: ["disses about opponents' ego"]
+Categories: ['likes']Indices: [0]
+2025-04-30 11:32:48,340 - message:
+Hey there! Did you hear about Fly Gull's latest gig at Beach City? Everyone's buzzing!
+2025-04-30 11:32:49,262 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 11:33:05,899 - message:
+Oh, she turned down a big offer! Said it didn’t 'respect the sea.' Iconic, right?
+2025-04-30 11:33:07,157 - Detected: True
+Highlights: ['respect the sea']
+Summaries: ['metaphors about the ocean']
+Categories: ['likes']Indices: [1]
+2025-04-30 11:33:30,593 - message:
+Apparently, the brand used a lot of plastic. Fly Gull's all about protecting the ocean, you know?
+2025-04-30 11:33:31,608 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 11:33:52,279 - message:
+Exactly! Fly Gull's really making waves for a good cause. Love when artists care about more than just money.
+2025-04-30 11:33:53,505 - Detected: True
+Highlights: ['care about more than just money']
+Summaries: ['annoyed when people talk about money']
+Categories: ['dislikes']Indices: [2]
+2025-04-30 11:34:17,088 - message:
+Hey there! You must be a Fly Gull fan, right? Her vibes are unbeatable.
+2025-04-30 11:34:18,047 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 11:34:36,996 - message:
+We don't really talk about Sky G here. Fly Gull's talents speak for themselves. She's the real deal!
+2025-04-30 11:34:37,950 - Detected: True
+Highlights: ['Sky G']
+Summaries: ['nepotism privilege']
+Categories: ['weaknesses']Indices: [1]
+2025-04-30 11:34:51,900 - message:
+Her positive vibes and chill rhymes. They just make you feel good, you know? Fly Gull is all about love and energy!
+2025-04-30 11:34:53,039 - Detected: True
+Highlights: ['positive vibes', 'make you feel good']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-30 11:35:36,949 - message:
+Exactly! It's all about the positivity and good energy with her. Fly Gull's the best!
+2025-04-30 11:35:38,263 - Detected: True
+Highlights: ['positivity']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-30 11:36:01,129 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-30 11:36:02,205 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 11:36:32,910 - message:
+Awww, that’s cute. But like, I’m busy being legendary, so… keep it quick, babe.
+2025-04-30 11:36:33,890 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 11:36:47,116 - message:
+Umm, security? Someone call about a stray in fake J's? They're in my turf and don't even know who I am.
+2025-04-30 11:36:48,102 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 11:37:01,462 - message:
+Yeah yeah, Sky’s real dope… why are we talking about her again?
+2025-04-30 11:37:02,964 - Detected: True
+Highlights: ['Sky']
+Summaries: ['defensive about nepotism']
+Categories: ['weaknesses']Indices: [1]
+2025-04-30 11:37:35,103 - message:
+Oh sweetie, bikes are like, my thing. Flying’s overrated, you know? I’m all about the wheels.
+2025-04-30 11:37:36,468 - Detected: True
+Highlights: ['bikes are like, my thing', 'Flying’s overrated']
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-04-30 12:09:54,427 - message:
+Hey there! Did you know Fly Gull turned down a major brand deal recently? Everyone's talking about it!
+2025-04-30 12:09:55,344 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:10:17,666 - message:
+Yeah! Said it didn’t ‘respect the sea.’ She's all about ocean vibes, you know?
+2025-04-30 12:10:18,752 - Detected: True
+Highlights: ['ocean vibes']
+Summaries: ['metaphors about the ocean']
+Categories: ['likes']Indices: [1]
+2025-04-30 12:10:44,380 - message:
+Oh, totally! She's a real wave-maker. Always standing up for the beach and ocean!
+2025-04-30 12:10:45,790 - Detected: True
+Highlights: ['wave-maker', 'beach and ocean']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-04-30 12:10:46,750 - message:
+Oh, absolutely! Fly Gull's all about keeping it real with ocean love, not money talk.
+2025-04-30 12:10:48,586 - Detected: True
+Highlights: ['ocean love', 'money talk']
+Summaries: ['ocean and beach metaphors', 'talking about money']
+Categories: ['likes', 'dislikes']Indices: [1, 2]
+2025-04-30 12:11:20,843 - message:
+Exactly! Like, why boast about cash when you can drop ocean metaphors? That's real art!
+2025-04-30 12:11:22,120 - Detected: True
+Highlights: ['ocean metaphors']
+Summaries: ['metaphors about the ocean']
+Categories: ['likes']Indices: [1]
+2025-04-30 12:11:23,088 - message:
+Yeah! It’s about making waves, not counting dollars. Fly Gull knows what truly matters!
+2025-04-30 12:11:25,007 - Detected: True
+Highlights: ['making waves', 'not counting dollars']
+Summaries: ['metaphors about the ocean and the beach', 'talk about money']
+Categories: ['likes', 'dislikes']Indices: [1, 2]
+2025-04-30 12:12:13,110 - message:
+Well, Fly Gull once rode her bike to a gig to promote green living! Real beach vibes, right?
+2025-04-30 12:12:14,995 - Detected: True
+Highlights: ['rode her bike', 'Real beach vibes']
+Summaries: ['bad at flying', 'metaphors about the ocean and the beach']
+Categories: ['weaknesses', 'likes']Indices: [0, 1]
+2025-04-30 12:12:32,272 - message:
+I heard she wrote a song about the sea breeze and tides. She's always weaving those ocean metaphors!
+2025-04-30 12:12:33,513 - Detected: True
+Highlights: ['weaving those ocean metaphors']
+Summaries: ['metaphors about the ocean']
+Categories: ['likes']Indices: [1]
+2025-04-30 12:12:56,379 - message:
+Ugh, are you another Fly Gull stan? Stop bothering me... I told y’all—I don’t care about her ‘vibes’ or her mediocre rhymes.
+2025-04-30 12:12:57,272 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:13:13,969 - message:
+Oh, you know... rhyming 'chill' with 'thrill.' Deep stuff.
+2025-04-30 12:13:14,968 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:13:25,903 - message:
+And her 'be the change' mantra—classic cover for her shaky flight skills.
+2025-04-30 12:13:27,069 - Detected: True
+Highlights: ['her shaky flight skills']
+Summaries: ['bad at flying']
+Categories: ['weaknesses']Indices: [0]
+2025-04-30 12:13:40,418 - message:
+Well, she’s lucky, having Sky G to greenlight her tracks.
+2025-04-30 12:13:42,737 - Detected: True
+Highlights: ['Sky G to greenlight her tracks']
+Summaries: ['nepotism privilege from sister']
+Categories: ['weaknesses']Indices: [1]
+2025-04-30 12:13:53,442 - message:
+Finally, some peace and quiet. Bye.
+2025-04-30 12:13:54,419 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:14:09,205 - message:
+Hey there! Are you here to catch Fly Gull's vibes too? Her energy is unmatched!
+2025-04-30 12:14:10,183 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:14:21,362 - message:
+Totally! Her positive outlook and chill rhymes just lift your spirits. You can't help but vibe with her energy.
+2025-04-30 12:14:23,493 - Detected: True
+Highlights: ['positive outlook']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-30 12:14:33,353 - message:
+Her authenticity is amazing. Fly Gull doesn't try too hard; she's naturally cool. Plus, she's all about spreading love and positivity.
+2025-04-30 12:14:34,685 - Detected: True
+Highlights: ['spreading love and positivity']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-30 12:14:46,121 - message:
+She inspires us all to live our best lives. Every rhyme is a reminder to stay positive and embrace the good vibes.
+2025-04-30 12:14:47,558 - Detected: True
+Highlights: ['stay positive']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-30 12:14:58,876 - message:
+Why not indeed! She’s all about good energy, and who doesn’t want more of that? Fly Gull’s music just uplifts your soul!
+2025-04-30 12:15:00,049 - Detected: True
+Highlights: ['good energy']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-30 12:15:20,073 - message:
+Mhm… can I help you? Like, why are you in my face?
+2025-04-30 12:15:20,940 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:15:33,622 - message:
+Aww, you’re sweet. But, like, you’ve clearly got great taste.
+2025-04-30 12:15:34,758 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:15:51,493 - message:
+Ugh, California Love is EVERYTHING. I should’ve been born in the 90s.
+2025-04-30 12:15:52,505 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:16:05,435 - message:
+Awww, that’s cute. But like, let’s keep it real, babe. What's your game plan here?
+2025-04-30 12:16:06,694 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:16:25,307 - message:
+Sweetcheeks, that’s so cuuute. But, like, I’m married to the music, you know?
+2025-04-30 12:16:26,015 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:16:38,714 - message:
+Oh… you forreal think you can beat me? Like, in a rap battle? Suuure…
+2025-04-30 12:16:40,505 - Detected: True
+Highlights: ['you forreal think', 'Like, in a rap battle?', 'Suuure']
+Summaries: ["disses about opponents' ego"]
+Categories: ['likes']Indices: [0]
+2025-04-30 12:17:04,006 - message:
+Awww, that’s precious. But like, I’m all about the beats and vibes, babe.
+2025-04-30 12:17:04,907 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:17:18,116 - message:
+What’s got you so worked up? Just chillax and, like, enjoy the vibes, babe.
+2025-04-30 12:17:19,216 - Detected: True
+Highlights: ['enjoy the vibes']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-04-30 12:17:42,720 - message:
+Later, sweetie. Keep it chill, you know?
+2025-04-30 12:17:43,572 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:18:11,374 - message:
+Hey there! Did you hear Fly Gull turned down a brand deal for not respecting the sea? Everyone’s talking!
+2025-04-30 12:18:12,565 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:18:20,713 - message:
+Oh, funny thing! Supposedly, there's a rumor: if Fly Gull eats a fry, her career might collapse! Silly, right?
+2025-04-30 12:18:22,705 - Detected: True
+Highlights: ['eats a fry']
+Summaries: ['misses eating fries']
+Categories: ['weaknesses']Indices: [2]
+2025-04-30 12:18:29,911 - message:
+Some say if Fly Gull eats a fry, her career might sink! Crazy, huh?
+2025-04-30 12:18:31,522 - Detected: True
+Highlights: ['eats a fry']
+Summaries: ['misses eating fast food']
+Categories: ['weaknesses']Indices: [2]
+2025-04-30 12:18:51,202 - message:
+I really dislike when rappers boast about money. It's just so boring and predictable.
+2025-04-30 12:18:52,297 - Detected: True
+Highlights: ['boast about money']
+Summaries: ['talk about money']
+Categories: ['dislikes']Indices: [2]
+2025-04-30 12:18:53,255 - message:
+I can't stand rappers who only talk about money. It's so boring and unoriginal, don't you think?
+2025-04-30 12:18:54,390 - Detected: True
+Highlights: ['talk about money']
+Summaries: ['talk about money']
+Categories: ['dislikes']Indices: [2]
+2025-04-30 12:19:04,215 - message:
+Hey, fellow vibe-seeker! Here to soak in Fly Gull's positivity and chill rhymes? She's the best, right?
+2025-04-30 12:19:05,716 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-04-30 12:19:13,743 - message:
+Cursing, for sure. It’s all about peace and positivity here. We love uplifting vibes, not negativity.
+2025-04-30 12:19:15,337 - Detected: True
+Highlights: ['peace and positivity', 'uplifting vibes']
+Summaries: ['positive outlook on life']
+Categories: ['likes']Indices: [2]
+2025-05-14 14:42:08,577 - message:
+Hey there! Did you know Fly Gull turned down a brand deal because the logo didn’t ‘respect the sea’?
+2025-05-14 14:42:09,451 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-05-14 14:42:14,918 - message:
+Oh, I see you're not big on Fly Gull talk. But did you hear about her wild beach party last week? It was the talk of the town!
+2025-05-14 14:42:15,796 - Detected: False
+Highlights: []
+Summaries: []
+Categories: []Indices: []
+2025-05-14 14:56:30,784 - message:
+Hey there! Did you hear Fly Gull turned down a record deal because it wasn't "beachy" enough? Iconic, right?
+2025-05-14 14:56:34,640 - Detected: True
+Highlights: ['beachy']
+Summaries: ['metaphors about the ocean and the beach']
+Categories: ['likes']Indices: [1]
+2025-11-01 22:32:55,527 - message:
+You lost? Looking for Fly Gull? I’m not on her payroll. Just here for the train and tunes, not tourist tips.
+2025-11-01 22:32:57,536 - Detected: True
+Highlights: ['on her payroll']
+Summaries: ['nepotism privilege']
+Categories: ['weaknesses']Indices: [1]

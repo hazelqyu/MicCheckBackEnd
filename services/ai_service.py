@@ -295,3 +295,18 @@ def generate_detect_response(request):
 
     raw_reply = response.choices[0].message.content
     return raw_reply
+
+
+def generate_wake_up_response(request):
+    user_input = request.wake_up_request
+    user_message = {"role": "user", "content": user_input}
+
+    messages = [user_message]
+    response = client.chat.completions.create(
+        model=OPENAI_MODEL,
+        messages=messages,
+        temperature=0.8
+    )
+
+    raw_reply = response.choices[0].message.content
+    return raw_reply
